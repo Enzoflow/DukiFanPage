@@ -16,14 +16,10 @@ html {
 body {
   background-color: black;
 }
-body header .minav {
-  height: 4rem;
-  background-color: #9d0208 !important;
-}
-body header .minav div div {
+body header .navbar div div {
   justify-content: center;
 }
-body header .minav ul {
+body header .navbar ul {
   font-size: 3rem;
   font-family: "Annapurna SIL", serif;
 }
