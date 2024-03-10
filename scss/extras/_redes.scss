@@ -1,0 +1,146 @@
+main{
+    .bannerRedes{
+        margin-bottom: 73rem;
+        height: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px;
+        grid-area: 
+        "se se"
+        "foto ti"
+        "foto redes"
+        "sed sed";
+        .sepa{
+            grid-area: se;
+            margin-top: -40rem;
+        }
+        .fotogrid{
+            grid-area: foto;
+            .dukiRedes{
+                width: 35rem;
+                height: 35rem;  
+                margin-left: 5rem;
+                margin-top: -20rem;
+                border-radius: 200px 200px 200px 200px;
+                -webkit-border-radius: 200px 200px 200px 200px;
+                -moz-border-radius: 200px 200px 200px 200px;
+                border: 3px solid #780707;
+                box-shadow: 4px -5px 53px 0px rgba(120,7,7,0.75);
+                -webkit-box-shadow: 4px -5px 53px 0px rgba(120,7,7,0.75);
+                -moz-box-shadow: 4px -5px 53px 0px rgba(120,7,7,0.75);
+            }
+        }
+        .titugrid{
+            grid-area: ti;
+            .tituloRedes{
+                font-size: 6rem;
+                margin-left: 53rem;
+                color: white;
+                margin-top: -20rem;
+                font-family: "Annapurna SIL", serif;
+                text-shadow: 4px 4px 2px rgba(120,7,7,0.6);
+            }
+       }
+        .redes{
+            grid-area: redes;
+            background-color: white;
+            width: 66rem;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            margin-left: 55rem;
+            padding: 25px 25px;
+            gap: 1rem;
+            justify-content: space-around;
+            border-radius: 45px 45px 45px 45px;
+            -webkit-border-radius: 45px 45px 45px 45px;
+            -moz-border-radius: 45px 45px 45px 45px;
+            border: 3px solid black;
+            .contenedor{
+                width: 66px;
+                height: 69px;
+                border-radius: 50%;
+                background-color: rgb(44, 44, 44);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                .ig{
+                    width: 7rem;
+                    height: 7rem;
+                    &:hover{
+                        background-color: #d62976;
+                        transition-duration: .3s;   
+                    }                   
+               }
+               .spo{
+                    width: 13rem;
+                    height: 13rem;
+                    padding: 4rem;
+                    &:hover{
+                        background-color: #40916c;
+                        transition-duration: .3s;
+                    }
+               }
+               .x{
+                    width: 12rem;
+                    height: 12rem;
+                    padding: 4rem;
+                    &:hover{
+                        background-color: #48bfe3;
+                        transition-duration: .3s;
+                    }
+               }
+               .you{
+                    width: 13rem;
+                    height: 12rem;
+                    padding: 4rem;
+                    &:hover{
+                        background-color: #ba181b;
+                        transition-duration: .3s;
+                    }
+               }
+               .tik{
+                    width: 12rem;
+                    height: 12rem;
+                    padding: 4rem;
+                    &:hover{
+                        background: rgb(144,224,239);
+                        background: linear-gradient(90deg, rgba(144,224,239,1) 47%, rgba(255,0,110,1) 94%);
+                        transition-duration: .3s;
+                    }   
+               }
+               .fc{
+                    width: 17rem;
+                    height: 17rem;
+                    padding: 4rem;
+                    &:hover{
+                        background: rgb(58,134,255);
+                        background: linear-gradient(90deg, rgba(58,134,255,1) 88%, rgba(255,255,255,1) 94%);
+                    }
+               }
+               .am{
+                    width: 17rem;
+                    height: 17rem;
+                    padding: 4rem;
+                    &:hover{
+                        background: rgb(230,57,70);
+                        background: radial-gradient(circle, rgba(230,57,70,1) 66%, rgba(255,255,255,1) 100%);
+                    }
+               }
+               .sc{
+                    width: 17rem;
+                    height: 17rem;
+                    padding: 4rem;
+               }
+
+            }
+        }
+        .sed{
+            grid-area: sed;
+            margin-bottom: -23rem;
+            margin-top: 22rem;
+        }
+    }   
+        
+}

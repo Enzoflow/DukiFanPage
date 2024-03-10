@@ -1,0 +1,159 @@
+.bodyAmeri{
+    header{
+        .navAmeri{
+            height: 4rem;
+            background: #48cae4 !important;
+            div{
+                div{
+                    justify-content: center;
+                }
+            }
+            ul{
+                font-size: 3rem;
+                font-family: "Annapurna SIL", serif;
+        
+                      
+            }
+        }
+    }
+    main{
+        .conteinerAmeri{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 300px;
+            grid-template-areas: 
+            "ameri video"
+            "des video";
+            .tituloAmeri{
+                grid-area: ameri;
+                .imgAmeri{
+                    width: 49rem;
+                    height: 16rem;
+                    margin-left: 15rem;
+                    margin-top: 5rem;
+                }
+            }
+            .tituloA{
+                grid-area: des;
+                padding: 1rem;
+                margin-left: 10rem;
+                width: 60rem;
+                height: 28rem;
+                background: rgb(0,180,216);
+                margin-top: -5rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+                box-shadow: -1px 1px 48px 0px rgba(144,224,239,0.75);
+                -webkit-box-shadow: -1px 1px 48px 0px rgba(144,224,239,0.75);
+                -moz-box-shadow: -1px 1px 48px 0px rgba(144,224,239,0.75);
+                margin-bottom: 3rem;
+                .desc{
+                    font-size: 2rem;
+                    text-align: justify;
+                    width: 54rem;
+                    color: white;
+                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
+                    margin-left: 2rem;
+                    margin-top: 2rem;
+                    .why{
+                        margin-left: 19rem;
+                        margin-top: -2rem;
+                    }
+                }
+             
+                .ti{
+                    font-size: 3.5rem;
+                    margin-left: 22rem;
+                    color: white;
+                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
+                }
+            }
+            .video{
+                grid-area: video;
+                .edit{
+                    margin-left: 20rem;
+                    padding-top: 1rem;
+                    border-radius: 15px 15px 15px 15px;
+                    -webkit-border-radius: 15px 15px 15px 15px;
+                    -moz-border-radius: 15px 15px 15px 15px;
+                    box-shadow: -1px 1px 48px 0px rgba(144,224,239,0.75);
+                    -webkit-box-shadow: -1px 1px 48px 0px rgba(144,224,239,0.75);
+                    -moz-box-shadow: -1px 1px 48px 0px rgba(144,224,239,0.75);
+                    margin-top: 3rem;
+                }
+            }
+            .adelantos{
+                grid-area: adelantos;
+                .AdeTi{
+                    font-size: 3rem;
+                    margin-left: 25rem;
+                    color: white;
+                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
+                }
+            }
+            .textoA{
+                grid-area: tex;
+                background: rgb(0,180,216);
+                .textomeri{
+                    font-size: 2rem;
+                    margin-left: 20rem;
+                    width: 39rem;
+                    margin-top: -15rem;
+                    color: white;
+                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
+                }
+            }
+        }
+        .temasA{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 300px;
+            grid-template-areas: 
+            "nom nom"
+            "spo duki"
+            "datos duki";
+            margin-bottom: 1rem;
+            .gridNombre{
+                grid-area: nom;
+                .nombreTema{
+                    margin-left: 30rem;
+                    width: 77rem;
+                    height: 15rem;
+                    margin-bottom: 1rem;
+                    margin-top: -3rem;
+                }
+            }
+            .gridTema{
+                grid-area: spo;
+                .smset{
+                    padding: 1rem;
+                    margin-left: 3rem;
+                    margin-top: -19rem;
+                }
+            }
+            .fotoTema{
+                grid-area: duki;
+                .eltiempo{
+                    width: 35rem;
+                    height: 47rem;
+                    margin-left: 21rem;
+                    border-radius: 18px 18px 18px 18px;
+                    -webkit-border-radius: 18px 18px 18px 18px;
+                    -moz-border-radius: 18px 18px 18px 18px;
+                    margin-top: -18rem;
+                }
+            }
+            .gridDatos{
+                grid-area: datos;
+                font-size: 2rem;
+                margin-left: 4rem;
+                margin-top: -15rem;
+                color: white; 
+            }
+        }
+   }
+   .footerAmeri{
+        background: #48cae4;
+   }
+}

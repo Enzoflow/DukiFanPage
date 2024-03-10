@@ -1,0 +1,68 @@
+body{
+    header{
+        .navssj{
+            height: 4rem;
+            background: rgb(2,62,138) !important;
+            div{
+                div{
+                    justify-content: center;
+                }
+            }
+            ul{
+                font-size: 3rem;
+                font-family: "Annapurna SIL", serif;
+        
+                      
+            }
+        }
+    }
+    main{
+        .conteiner{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 400px;
+            grid-template-areas: 
+            "titu titu"
+            "spoti tex";
+            .areaT{
+                grid-area: titu;
+                .titu{
+                    font-size: 5rem;
+                    color: #4281a4;
+                    margin-left: 40rem;
+                    margin-bottom: 2.5rem;
+                    text-shadow: -2px 0px 17px rgba(0,0,0,0.6);
+                    font-family: "Playfair Display", serif;;
+                }
+            }
+            .album{
+                margin-top: 1rem;
+                grid-area: spoti;
+                width: 130rem;
+        
+            }
+            .areatex{
+                grid-area: tex;
+                width: 1rem;
+                .texto{
+                    font-size: 2rem;
+                    color: white;
+                    width: 60rem;
+                    margin-left: 32rem;
+                    text-align: justify;
+                    background-color: #4281a4;
+                    padding: 2rem;
+                    border-radius: 19px 19px 19px 19px;
+                    -webkit-border-radius: 19px 19px 19px 19px;
+                    -moz-border-radius: 19px 19px 19px 19px;
+                    box-shadow: -1px 0px 17px 5px rgba(66,129,164,0.75);
+                    -webkit-box-shadow: -1px 0px 17px 5px rgba(66,129,164,0.75);
+                    -moz-box-shadow: -1px 0px 17px 5px rgba(66,129,164,0.75);
+                }
+            }
+        }
+    }
+    .footerSSJ{
+        background-color: rgb(2,62,138);
+    }
+}

@@ -1,0 +1,344 @@
+main{
+    .albums{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px;
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "tex tex tex"
+        "ssj 24 defdm"
+        "defdmVIVO TR1 TR2"
+        "ada ada ameri";
+        margin-bottom: 1rem;
+        .gridT{
+            grid-area: titulo;
+            .tituloDIS{
+                font-size: 6rem;
+                margin-left: 50rem;
+                color: #d00000;
+                font-family: "Annapurna SIL", serif;
+                margin-top: 3rem;
+            }
+        }
+        .gridTEX{
+            grid-area: tex;
+            .texDIS{
+                font-size: 3rem;
+                color: white;
+                margin-left: 30rem;
+                margin-top: -29rem;
+            }
+        }
+        .gridSSJ{   
+            grid-area: ssj;
+            background: rgb(2,62,138);
+            background: radial-gradient(circle, rgba(2,62,138,1) 73%, rgba(0,119,182,1) 90%);   
+            width: 33rem;
+            height: 40rem;
+            margin-left: 4rem;
+            margin-top: -20rem;
+            box-shadow: 10px 10px 144px 79px rgba(2,62,138,0.53);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(2,62,138,0.53);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(2,62,138,0.53);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .ssjTITU{
+                font-size: 3.5rem;
+                height: 5rem;
+                margin-left: 1rem;
+                color: white;
+                text-decoration: none;
+            }
+            .ssjTEX{
+                font-size: 2rem;
+                margin-left: 1rem;
+                height: 13rem;
+                color: white;
+            }
+            .ssj{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 1rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .links{
+                padding-top: 1rem;
+                margin-left: 23rem;
+                font-size: 2rem;
+                color: white;
+            }
+        }
+        .grid24{
+            grid-area: 24;
+            background: rgb(255,173,173);
+            background: radial-gradient(circle, rgba(255,173,173,1) 26%, rgba(224,170,255,1) 100%);
+            width: 33rem;
+            height: 40rem;
+            margin-left: 51rem;
+            margin-top: -127rem;
+            box-shadow: 10px 10px 144px 79px rgba(255,173,173,0.53);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(255,173,173,0.53);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(255,173,173,0.53);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .ep{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 1rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .epTITU{
+                font-size: 3.5rem;
+                height: 5rem;
+                margin-left: 14rem;
+                text-decoration: none;
+                color: white;
+            }
+            .epTEX{
+                font-size: 2rem;
+                margin-left: 1rem;
+                height: 14rem;
+            }
+            .linkep{
+                padding-top: 1rem;
+                margin-left: 23rem;
+                font-size: 2rem;
+                color: black;
+            }
+        }
+        .gridMundo{
+            grid-area: defdm;
+            background: rgb(156,102,68);
+            background: radial-gradient(circle, rgba(156,102,68,1) 76%, rgba(119,73,54,1) 100%);
+            width: 33rem;
+            height: 40rem;
+            margin-left: -15rem;
+            margin-top: -20rem;
+            box-shadow: 10px 10px 144px 79px rgba(227,100,20,0.53);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(227,100,20,0.53);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(227,100,20,0.53);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .defdm{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 0.8rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .mundoTITU{
+                font-size: 3rem;
+                height: 5rem;
+                margin-bottom: 5.5rem;
+                margin-left: 1rem;
+                text-align: center;
+                color: white;
+                text-decoration: none;
+            }
+            .mundoTEX{
+                font-size: 1.6rem;
+                margin-left: 1rem;
+                height: 1rem;
+            }
+        }
+        .gridRE{
+            grid-area: TR1;
+            background: rgb(153,217,140);
+            background: radial-gradient(circle, rgba(153,217,140,1) 48%, rgba(181,228,140,1) 100%);
+            width: 33rem;
+            height: 43rem;
+            margin-left: -33rem;
+            margin-top: 2rem;
+            box-shadow: 10px 10px 144px 79px rgba(181,228,140,0.53);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(181,228,140,0.53);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(181,228,140,0.53);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .tem1{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 0.8rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .regg{
+                font-size: 3.5rem;
+                height: 5rem;
+                margin-bottom: 5.5rem;
+                text-align: center;
+                text-decoration: none;
+                margin-left: 1rem;
+                color:black;
+            }
+            .texREGG{
+                font-size: 1.7rem;
+                margin-left: 1rem;
+                height: 1rem;
+            }
+        }
+        .gridRE2{
+            grid-area: TR2;
+            background: rgb(64,61,57);
+            background: radial-gradient(circle, rgba(64,61,57,1) 85%, rgba(37,36,34,1) 100%);
+            width: 33rem;
+            height: 43rem;
+            margin-left: -15rem;
+            margin-top: 2rem;
+            box-shadow: 10px 10px 144px 79px rgba(37,36,34,0.53);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(37,36,34,0.53);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(37,36,34,0.53);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .tem2{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 0.8rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .regg2{
+                font-size: 3.5rem;
+                height: 5rem;
+                margin-bottom: 5.5rem;
+                text-align: center;
+                color: white;
+            }
+            .texREGG2{
+                font-size: 1.7rem;
+                margin-left: 1rem;
+                height: 1rem;
+                color: white;
+            }
+            
+        }
+        .gridVIVO{
+            grid-area: defdmVIVO;
+            background: rgb(202,240,248);
+            background: radial-gradient(circle, rgba(202,240,248,1) 85%, rgba(255,232,214,1) 100%);
+            width: 33rem;
+            height: 43rem;
+            margin-left: 4rem;
+            margin-top: 2rem;
+            box-shadow: 10px 10px 144px 79px rgba(202,240,248,0.53);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(202,240,248,0.53);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(202,240,248,0.53);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .vivo{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 0.8rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .vivoTI{
+                font-size: 3.5rem;
+                height: 5rem;
+                text-align: center;
+                margin-bottom: 5.5rem;
+                color: black;
+                padding: 1rem;
+                margin-left: 1rem;
+            }
+            .vivoTE{
+                font-size: 2rem;
+                margin-left: 1rem;
+                height: 1rem;
+            }
+        }
+        .gridada{
+            grid-area: ada;
+            background: rgb(155,34,38);
+            background: radial-gradient(circle, rgba(155,34,38,1) 26%, rgba(120,0,0,1) 96%);
+            width: 33rem;
+            height: 40rem;
+            margin-left: 22rem;
+            margin-top: 2rem;
+            box-shadow: 10px 10px 144px 79px rgba(155,34,38,0.75);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(155,34,38,0.75);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(155,34,38,0.75);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .ada{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 0.9rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .adaTI{
+                font-size: 3.5rem;
+                height: 5rem;
+                text-align: center;
+                margin-bottom: 1rem;
+                color: white;
+            }
+            .adaTE{
+                font-size: 2rem;
+                margin-left: 1rem;
+                height: 1rem;
+                color: white;
+            }
+        }
+        .gridAmeri{
+            grid-area: ameri;
+            width: 33rem;
+            height: 40rem;
+            margin-left: -31rem;
+            margin-top: 2rem;
+            background: rgb(0,180,216);
+            background: radial-gradient(circle, rgba(0,180,216,1) 26%, rgba(67,97,238,1) 96%);
+            box-shadow: 10px 10px 144px 79px rgba(67,97,238,0.75);
+            -webkit-box-shadow: 10px 10px 144px 79px rgba(67,97,238,0.75);
+            -moz-box-shadow: 10px 10px 144px 79px rgba(67,97,238,0.75);
+            border-radius: 15px 15px 15px 15px;
+            -webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            .ameri{
+                width: 31rem;
+                height: 30rem;
+                margin-left: 0.9rem;
+                margin-top: 1rem;
+                border-radius: 15px 15px 15px 15px;
+                -webkit-border-radius: 15px 15px 15px 15px;
+                -moz-border-radius: 15px 15px 15px 15px;
+            }
+            .ameriTI{
+                font-size: 3.5rem;
+                height: 5rem;
+                text-align: center;
+                margin-bottom: 1rem;
+                color: white;
+            }
+            .ameriTE{
+                font-size: 2rem;
+                margin-left: 1rem;
+                height: 1rem;
+                color: white;
+            }
+        }
+    }
+}

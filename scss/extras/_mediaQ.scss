@@ -1,0 +1,76 @@
+@media only screen and (max-width:500px){
+    body{
+        main{
+            display: block;
+            section{
+                div{
+                    .bannerIMG{
+                        width: 100%;
+                        height: 25rem;
+                        border-bottom: solid #9d0208;
+                        
+                    }
+            
+                    .tituloDuko{
+                        font-size: 7rem;
+                        margin-left: 5rem;
+                        margin-top: -5rem;
+                        color: #d00000;
+                        font-family: "Playfair Display", serif;
+                        text-shadow: 3px -2px 10px rgba(236,24,24,0.38);
+
+                    }
+            
+                    .alas{
+                        width: 12rem;
+                        height: 12rem;
+                        margin-top: -10rem;
+                        margin-left: 23rem;
+                    }
+                }
+            }
+            .section2{
+                border: none;
+                grid-template-columns: 1fr;
+                grid-template-rows: 400px;
+                grid-template-areas: 
+                "foto"
+                "why"
+                "tex"
+                "bio";
+                .titulo2{
+                    .tituloPER{
+                        font-size: 4rem;
+                        margin-top: -10rem;
+                        width: 28rem;
+                        margin-left: 5rem;
+                    }
+                }
+                .texINFO{
+                    .texPER{
+                        width: 28rem;
+                        font-size: 2.5rem;
+                        margin-left: 5rem;
+                        margin-top: -2rem;
+                    }
+                }
+                .imgDUKI{
+                    .imgPER{
+                        width: 24rem;
+                        height: 24rem;
+                        margin-left: 8rem;
+                        margin-top: 3rem;
+                    }
+                }
+                .info{
+                    .texBio{
+                        width: 30rem;
+                        font-size: 1.7rem;
+                        margin-left: 5rem;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}                    

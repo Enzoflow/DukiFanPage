@@ -1,0 +1,59 @@
+body{
+    header{
+        .navMu{
+            height: 4rem;
+            background: rgb(156,102,68);
+            background: radial-gradient(circle, rgba(156,102,68,1) 76%, rgba(119,73,54,1) 100%);
+            div{
+                div{
+                    justify-content: center;
+                }
+            }
+            ul{
+                font-size: 3rem;
+                font-family: "Annapurna SIL", serif;
+        
+                      
+            }
+        }
+    }
+    main{
+        .conteiner{
+            .areaT{
+                .tituMu{
+                    font-size: 9rem;
+                    margin-left: 29rem;
+                    font-family: "Annapurna SIL", serif;
+                    color: rgb(156,102,68);
+                    width: 91rem;
+                    text-shadow: 5px -1px 16px rgba(127,85,57,0.6);
+                }
+            }
+            .album{
+
+            }
+            .areatex{
+                .texMu{
+                    font-size: 2rem;
+                    margin-left: 35rem;
+                    width: 49rem;
+                    padding: 2rem;
+                    text-align: justify;
+                    background: rgb(156,102,68);
+                    background: radial-gradient(circle, rgba(156,102,68,1) 76%, rgba(119,73,54,1) 100%);
+                    border-radius: 14px 14px 14px 14px;
+                    -webkit-border-radius: 14px 14px 14px 14px;
+                    -moz-border-radius: 14px 14px 14px 14px;
+                    box-shadow: 0px 3px 28px 0px rgba(227,100,20,0.75);
+                    -webkit-box-shadow: 0px 3px 28px 0px rgba(227,100,20,0.75);
+                    -moz-box-shadow: 0px 3px 28px 0px rgba(227,100,20,0.75);
+
+                }
+            }
+        }
+    }
+    .footerMu{
+        background: rgb(156,102,68);
+            background: radial-gradient(circle, rgba(156,102,68,1) 76%, rgba(119,73,54,1) 100%);
+    }
+}

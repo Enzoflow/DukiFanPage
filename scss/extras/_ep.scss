@@ -1,0 +1,56 @@
+body{
+    header{
+        .nav24{
+            height: 4rem;
+            background: rgb(255,173,173);
+            background: radial-gradient(circle, rgba(255,173,173,1) 0%, rgba(224,170,255,1) 100%);
+            div{
+                div{
+                    justify-content: center;
+                }
+            }
+            ul{
+                font-size: 3rem;
+                font-family: "Annapurna SIL", serif;
+        
+                      
+            }
+        }
+    }
+    main{
+        .conteiner{
+            .areaT{
+                .titu24{
+                    font-size: 9rem;
+                    margin-left: 65rem;
+                    color: #ff928b;
+                    text-shadow: 6px 2px 18px rgba(224,170,255,0.6);
+                    font-family: "Annapurna SIL", serif;
+                }
+            }
+            .album{
+                margin: 1rem;
+            }
+            .areatex{
+                .tex24{
+                    font-size: 2rem;
+                    margin-left: 35rem;
+                    width: 49rem;
+                    padding: 2rem;
+                    text-align: justify;
+                    background-color: #ff928b;
+                    box-shadow: -1px 0px 17px 5px rgba(255,146,139,0.75);
+                    -webkit-box-shadow: -1px 0px 17px 5px rgba(255,146,139,0.75);
+                    -moz-box-shadow: -1px 0px 17px 5px rgba(255,146,139,0.75);
+                    border-radius: 14px 14px 14px 14px;
+                    -webkit-border-radius: 14px 14px 14px 14px;
+                    -moz-border-radius: 14px 14px 14px 14px;
+                }
+            }
+        }
+    }
+    .footerEP{
+        background: rgb(255,173,173);
+            background: radial-gradient(circle, rgba(255,173,173,1) 0%, rgba(224,170,255,1) 100%);
+    }
+}

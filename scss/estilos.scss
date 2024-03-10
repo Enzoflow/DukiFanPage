@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'animate.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+
+}
+body{
+    background-color: black;
+    header{
+        
+        .minav{
+            height: 4rem;
+            background-color: #9d0208 !important;
+            div{
+                div{
+                    justify-content: center;
+                }
+            }
+            ul{
+                font-size: 3rem;
+                font-family: "Annapurna SIL", serif;
+        
+                      
+            }
+            
+        }
+    }
+    main{
+        display: block;
+        section{
+            div{
+                .bannerIMG{
+                    width: 100%;
+                    height: 50rem;
+                    border-bottom: solid #9d0208;
+                }
+           
+                .tituloDuko{
+                    font-size: 10rem;
+                    margin-left: 10rem;
+                    margin-top: -32rem;
+                    color: #d00000;
+                    font-family: "Playfair Display", serif;
+                    text-shadow: 3px -2px 10px rgba(236,24,24,0.38);
+                }
+           
+                .alas{
+                    width: 22rem;
+                    height: 23rem;
+                    margin-top: -18rem;
+                    margin-left: 36rem;
+                }
+            }    
+            
+
+            
+        }
+        .section2{
+            padding-bottom: 5rem;
+            border-top: solid 38px red;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 400px;
+            grid-template-areas: 
+            "why foto"
+            "tex foto"
+            "bio bio";
+            .titulo2{
+                grid-area: why;
+                .tituloPER{
+                    font-size: 6rem;
+                    margin-top: 25rem;
+                    margin-left: 10rem;
+                    font-family: "Annapurna SIL", serif;
+                    color: white;
+                }
+            }
+            .texINFO{
+                grid-area: tex;
+                .texPER{
+                    font-size: 3rem;
+                    width: 36rem;
+                    margin-left: 10rem;
+                    margin-top: 3rem;
+                    color: white;
+                }
+            }
+            .color{
+                color: #d00000;
+            }
+            .imgDUKI{
+                grid-area: foto;
+                .imgPER{
+                    width: 61rem;
+                    height: 52rem;
+                    margin-top: 15rem;
+                    opacity: 0.7;
+                    filter: alpha(opacity=50);
+                    border-radius: 69px 77px 131px 0px;
+                    -webkit-border-radius: 69px 77px 131px 0px;
+                    -moz-border-radius: 69px 77px 131px 0px;
+                    border: 5px solid #ff2000;
+                    box-shadow: 15px 7px 5px 3px rgba(219,18,18,0.75);
+                    -webkit-box-shadow: 15px 7px 5px 3px rgba(219,18,18,0.75);
+                    -moz-box-shadow: 15px 7px 5px 3px rgba(219,18,18,0.75);
+                }
+            }
+            .info{
+                grid-area: bio;
+                .texBio{
+                    font-size: 2.5rem;
+                    width: 113rem;
+                    margin-left: 10rem;
+                    margin-top: 3rem;
+                    color: white;
+                }
+            }
+        }
+    }
+    footer{
+        background-color: #9d0208;
+        width: 100%;
+        height: 81px;
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        block-size: 50px;
+    }
+}
+@import "extras/disco";
+@import "extras/redes";
+@import "extras/ssj";
+@import "extras/ep";
+@import "extras/defdm";
+@import "extras/vivo";
+@import "extras/tr1";
+@import "extras/tr2";
+@import "extras/ada";
+@import "extras/bio";
+@import "extras/ameri";
+@import "extras/mediaQ";

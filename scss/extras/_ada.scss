@@ -1,0 +1,36 @@
+body{ 
+    main{
+        .conteiner{
+            .areaT{
+                .tituAda{
+                    font-size: 5rem;
+                    margin-left: 50rem;
+                    margin-bottom: 2.5rem;
+                    color: rgba(120,0,0,1);
+                    text-shadow: 4px 0px 6px rgba(155,34,38,0.6);
+                }
+
+            }
+            .album{
+            }
+            .areatex{
+
+                .texAda{
+                    font-size: 2rem;
+                    color: white;
+                    width: 60rem;
+                    margin-left: 32rem;
+                    padding: 2rem;
+                    margin-top: 12rem;
+                    text-align: justify;
+                    background: rgb(155,34,38);
+                    background: radial-gradient(circle, rgba(155,34,38,1) 26%, rgba(120,0,0,1) 96%);
+                    border-radius: 17px 17px 17px 17px;
+                    -webkit-border-radius: 17px 17px 17px 17px;
+                    -moz-border-radius: 17px 17px 17px 17px;
+                }
+            }
+            
+        }
+    }
+}

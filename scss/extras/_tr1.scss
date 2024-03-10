@@ -1,0 +1,58 @@
+body{
+    header{
+        .navtr{
+            height: 4rem;
+            background: rgb(153,217,140);
+            background: radial-gradient(circle, rgba(153,217,140,1) 48%, rgba(181,228,140,1) 100%);
+            div{
+                div{
+                    justify-content: center;
+                }
+            }
+            ul{
+                font-size: 3rem;
+                font-family: "Annapurna SIL", serif;
+        
+                      
+            }
+        }
+    }
+    main{
+        .conteiner{
+            .areaT{
+                .tiTR{
+                    font-size: 5rem;
+                    margin-left: 40rem;
+                    margin-bottom: 2.5rem;
+                    color: #606c38;
+                    text-shadow: 2px 2px 13px rgba(153,217,140,0.6);
+                }
+            }
+            .album{
+                margin: 1rem;
+            }
+            .areatex{
+                .texTR{
+                    font-size: 2rem;
+                    color: white;
+                    width: 60rem;
+                    margin-left: 32rem;
+                    padding: 2rem;
+                    margin-top: 6rem;
+                    text-align: justify;
+                    background-color:  #606c38;
+                    border-radius: 15px 15px 15px 15px;
+                    -webkit-border-radius: 15px 15px 15px 15px;
+                    -moz-border-radius: 15px 15px 15px 15px;
+                    box-shadow: -1px 0px 53px -5px rgba(153,217,140,0.75);
+                    -webkit-box-shadow: -1px 0px 53px -5px rgba(153,217,140,0.75);
+                    -moz-box-shadow: -1px 0px 53px -5px rgba(153,217,140,0.75);
+                }
+            }
+        }   
+    }
+    .footerTR{
+        background: rgb(153,217,140);
+        background: radial-gradient(circle, rgba(153,217,140,1) 48%, rgba(181,228,140,1) 100%);
+    }
+}
