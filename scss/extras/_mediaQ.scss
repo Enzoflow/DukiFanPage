@@ -71,6 +71,79 @@
                     }
                 }
             }
+            .bio{
+                grid-template-columns: 1fr;
+                grid-template-rows: 400px;
+                grid-template-areas: 
+                "titulo"
+                "foto"
+                "tex2" 
+                "tex";
+                margin-bottom: 2rem;
+                .imagen_bio{
+                    border-left: none;
+                    border-right: none;
+                    width: max-content;
+                    .img_bio{
+                        width: 20rem;
+                        height: 20rem;
+                        margin-top: -48rem;
+                        margin-left: 1rem;
+                    }
+                }
+                .titu_bio{
+                    .titulo{
+                        font-size: 4rem;
+                        margin-left: 9rem;
+                        width: max-content;
+                    }
+                }
+                .tex_bio{
+                    width: max-content;
+                    .texto_bio{
+                        width: 25rem;
+                        font-size: 1rem;
+                        margin-right: 1rem;
+                        margin-top: 1rem;
+                        margin-left: 4rem;
+                    }
+                    .titulo2{
+                        margin-left: 1rem;
+                    }
+                    .texto_bio2{
+                        font-size: 1rem;
+                        width: 24rem !important;
+                        margin-left: 1rem !important;
+                        margin-top: 1rem;
+
+                    }
+                    .antezana{
+                        width: 20rem;
+                        height: 21rem;
+                        margin-left: 1rem;
+                        margin-top: 0rem;
+                    }
+                    .trap{
+                        margin-left: 1rem;
+                        margin-top: 1rem;
+                        width: max-content;
+                        font-size: 1rem;
+                    }
+                    .mapa{
+                        width: 22rem;
+                        height: 23rem;
+                        margin-left: 1rem;
+                    }
+                }
+                .tex_bio2{
+                    .tex_img{
+                        width: 25rem;
+                        height: 61rem;
+                        margin-top: -11rem;
+                        margin-left: 5;
+                    }
+                }
+            }
         }
     }
 }                    
