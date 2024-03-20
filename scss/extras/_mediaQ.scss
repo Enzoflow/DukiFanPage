@@ -295,6 +295,62 @@
                     }
                 }
             }
+            .bannerRedes{
+                grid-template-columns: 1fr;
+                grid-template-rows: 400px;
+                grid-template-areas: 
+                "se"
+                "foto" 
+                "ti"
+                "redes"
+                "sed";
+                height: 28rem;
+                .sepa{
+                    margin-top: 1rem;
+                    width: 100%;
+                }
+                .fotogrid{
+                    .dukiRedes{
+                        width: 27rem;
+                        height: 28rem;
+                        margin-left: 4.5rem;
+
+                    }
+                }
+                .titugrid{
+                    .tituloRedes{
+                        margin-left: 4.5rem;
+                        font-size: 2.5rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .redes{
+                    margin-left: 1rem;
+                    flex-direction: column;
+                    width: 25rem;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 100px;
+                    grid-template-areas:    
+                    "ig spo"
+                    "x you"
+                    "tik face"
+                    "apple apple";
+                    justify-items: center;
+                    margin-left: 5rem;
+                    background-color: black;
+                    .contenedor{
+                        width: 78px;
+                        height: 80px;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+            .sed{
+                width: 100%;
+                margin-bottom: 1rem !important;
+                margin-top: 1rem !important;
+            }
         }
     }
 }                    
