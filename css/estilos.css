@@ -1417,7 +1417,7 @@ body main .bio .tex_bio2 .tex_img {
     margin-left: 4.5rem;
   }
   body main .bannerRedes .titugrid .tituloRedes {
-    margin-left: 4.5rem;
+    margin-left: 5.5rem;
     font-size: 2.5rem;
     margin-top: 1rem;
   }
@@ -1430,13 +1430,20 @@ body main .bio .tex_bio2 .tex_img {
     grid-template-rows: 100px;
     grid-template-areas: "ig spo" "x you" "tik face" "apple apple";
     justify-items: center;
-    margin-left: 5rem;
+    margin-left: -3.5rem;
     background-color: black;
   }
   body main .bannerRedes .redes .contenedor {
     width: 78px;
     height: 80px;
     margin-bottom: 1rem;
+  }
+  body main .bannerRedes .redes .contenedor .fc {
+    width: 19rem;
+    height: 19rem;
+  }
+  body main .bannerRedes .redes .miu {
+    margin-left: 15rem;
   }
   body main .sed {
     width: 100%;

@@ -319,7 +319,7 @@
                 }
                 .titugrid{
                     .tituloRedes{
-                        margin-left: 4.5rem;
+                        margin-left: 5.5rem;
                         font-size: 2.5rem;
                         margin-top: 1rem;
                     }
@@ -337,12 +337,19 @@
                     "tik face"
                     "apple apple";
                     justify-items: center;
-                    margin-left: 5rem;
+                    margin-left: -3.5rem;
                     background-color: black;
                     .contenedor{
                         width: 78px;
                         height: 80px;
                         margin-bottom: 1rem;
+                        .fc{
+                            width: 19rem;
+                            height: 19rem;
+                        }
+                    }
+                    .miu{
+                        margin-left: 15rem;
                     }
                 }
             }
