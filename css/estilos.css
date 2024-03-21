@@ -1194,6 +1194,7 @@ body main .bio .tex_bio2 .tex_img {
     font-size: 1.7rem;
     margin-left: 5rem;
     margin-top: 1rem;
+    text-align: justify;
   }
   body main .bio {
     grid-template-columns: 1fr;
@@ -1229,6 +1230,7 @@ body main .bio .tex_bio2 .tex_img {
     margin-right: 1rem;
     margin-top: 1rem;
     margin-left: 4rem;
+    text-align: justify;
   }
   body main .bio .tex_bio .titulo2 {
     margin-left: 1rem !important;
