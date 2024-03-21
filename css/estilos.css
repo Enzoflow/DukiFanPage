@@ -1424,13 +1424,13 @@ body main .bio .tex_bio2 .tex_img {
   body main .bannerRedes .redes {
     margin-left: 1rem;
     flex-direction: column;
-    width: 50%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px;
     grid-template-areas: "ig spo" "x you" "tik face" "apple apple";
     justify-items: center;
-    margin-left: -3.5rem;
+    margin: 0px auto;
     background-color: black;
   }
   body main .bannerRedes .redes .contenedor {
