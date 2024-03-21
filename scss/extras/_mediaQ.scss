@@ -39,34 +39,39 @@
                 "tex"
                 "bio";
                 .titulo2{
+                    margin: 0px auto;
                     .tituloPER{
                         font-size: 4rem;
                         margin-top: -10rem;
                         width: 28rem;
-                        margin-left: 5rem;
+                        margin-left: 0rem;
                     }
                 }
                 .texINFO{
+                    margin: 0px auto;
                     .texPER{
                         width: 28rem;
                         font-size: 2.5rem;
-                        margin-left: 5rem;
+                        margin-left: 0rem;
                         margin-top: -2rem;
                     }
                 }
                 .imgDUKI{
+                    margin: 0px auto;
                     .imgPER{
                         width: 24rem;
                         height: 24rem;
-                        margin-left: 8rem;
+                        margin-left: 0rem;
                         margin-top: 3rem;
                     }
                 }
                 .info{
+                    margin: 0px auto;
+                    
                     .texBio{
                         width: 30rem;
                         font-size: 1.7rem;
-                        margin-left: 5rem;
+                        margin-left: 0rem;
                         margin-top: 1rem;
                         text-align: justify;
                     }
@@ -85,28 +90,31 @@
                     border-left: none;
                     border-right: none;
                     width: max-content;
+                    margin: 0px auto;
                     .img_bio{
                         width: 20rem;
                         height: 20rem;
                         margin-top: -48rem;
-                        margin-left: 1rem;
+                        margin-left: 0rem;
                     }
                 }
                 .titu_bio{
+                    margin: 0px auto;
                     .titulo{
                         font-size: 4rem;
-                        margin-left: 9rem;
+                        margin-left: 0rem;
                         width: max-content;
                     }
                 }
                 .tex_bio{
-                    width: max-content;
+                    margin: 0px auto;
+                    width: 80%;
                     .texto_bio{
-                        width: 28rem;
+                        width: 30rem;
                         font-size: 1.5rem;
                         margin-right: 1rem;
                         margin-top: 1rem;
-                        margin-left: 4rem;
+                        margin-left: 0rem;
                         text-align: justify;
                     }
                     .titulo2{

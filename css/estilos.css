@@ -1171,28 +1171,40 @@ body main .bio .tex_bio2 .tex_img {
     grid-template-rows: 400px;
     grid-template-areas: "foto" "why" "tex" "bio";
   }
+  body main .section2 .titulo2 {
+    margin: 0px auto;
+  }
   body main .section2 .titulo2 .tituloPER {
     font-size: 4rem;
     margin-top: -10rem;
     width: 28rem;
-    margin-left: 5rem;
+    margin-left: 0rem;
+  }
+  body main .section2 .texINFO {
+    margin: 0px auto;
   }
   body main .section2 .texINFO .texPER {
     width: 28rem;
     font-size: 2.5rem;
-    margin-left: 5rem;
+    margin-left: 0rem;
     margin-top: -2rem;
+  }
+  body main .section2 .imgDUKI {
+    margin: 0px auto;
   }
   body main .section2 .imgDUKI .imgPER {
     width: 24rem;
     height: 24rem;
-    margin-left: 8rem;
+    margin-left: 0rem;
     margin-top: 3rem;
+  }
+  body main .section2 .info {
+    margin: 0px auto;
   }
   body main .section2 .info .texBio {
     width: 30rem;
     font-size: 1.7rem;
-    margin-left: 5rem;
+    margin-left: 0rem;
     margin-top: 1rem;
     text-align: justify;
   }
@@ -1207,29 +1219,33 @@ body main .bio .tex_bio2 .tex_img {
     border-right: none;
     width: -moz-max-content;
     width: max-content;
+    margin: 0px auto;
   }
   body main .bio .imagen_bio .img_bio {
     width: 20rem;
     height: 20rem;
     margin-top: -48rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
+  }
+  body main .bio .titu_bio {
+    margin: 0px auto;
   }
   body main .bio .titu_bio .titulo {
     font-size: 4rem;
-    margin-left: 9rem;
+    margin-left: 0rem;
     width: -moz-max-content;
     width: max-content;
   }
   body main .bio .tex_bio {
-    width: -moz-max-content;
-    width: max-content;
+    margin: 0px auto;
+    width: 80%;
   }
   body main .bio .tex_bio .texto_bio {
-    width: 25rem;
+    width: 30rem;
     font-size: 1.5rem;
     margin-right: 1rem;
     margin-top: 1rem;
-    margin-left: 4rem;
+    margin-left: 0rem;
     text-align: justify;
   }
   body main .bio .tex_bio .titulo2 {
