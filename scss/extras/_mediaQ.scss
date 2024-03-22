@@ -108,9 +108,9 @@
                 }
                 .tex_bio{
                     margin: 0px auto;
-                    width: 80%;
+
                     .texto_bio{
-                        width: 30rem;
+                        width: 28rem;
                         font-size: 1.5rem;
                         margin-right: 1rem;
                         margin-top: 1rem;
@@ -118,12 +118,12 @@
                         text-align: justify;
                     }
                     .titulo2{
-                        margin-left: 1rem !important;
+                        margin-left: 0rem !important;
                     }
                     .texto_bio2{
-                        font-size: 1.8rem;
+                        font-size: 1.7rem;
                         width: 33rem !important;
-                        margin-left: 1rem !important;
+                        margin-left: 0rem !important;
                         margin-top: 1rem;
 
                     }
@@ -173,24 +173,30 @@
                 "ada"
                 "ameri";
                 .gridT{
+                    margin: 0px auto;
                     .tituloDIS{
                         font-size: 5rem;
-                        margin-left: 5rem;
+                        margin-left: 0rem;
                         margin-top: 3rem;
                     }
                 }
                 .gridTEX{
+                    margin: 0px auto;
                     .texDIS{
                         font-size: 2rem;
-                        margin-left: 5rem;
+                        margin-left: 0rem;
                         margin-top: -29rem;
                         width: 28rem;
                     }
                 }
                 .gridSSJ{
+                    margin: 0px auto;
                     width: 30rem;
                     height: 33rem;
                     margin-top: -21rem;
+                    box-shadow: -1px 0px 35px 11px rgba(17,51,136,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(17,51,136,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(17,51,136,0.75);
                     .ssj{
                         width: 27rem;
                         height: 27rem;
@@ -202,10 +208,13 @@
                     }
                 }
                 .gridMundo{
+                    margin: 0px auto;
                     width: 30rem;
                     height: 33rem;
-                    margin-left: 4rem;
                     margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(227,100,20,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(227,100,20,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(227,100,20,0.75);
                     .defdm{
                         width: 27rem;
                         height: 27rem;
@@ -218,8 +227,8 @@
                     }
                 }
                 .grid24{
+                    margin: 0px auto;
                     grid-area: ep;
-                    margin-left: 4rem;
                     margin-top: 1rem;
                     width: 30rem;
                     height: 33rem;
@@ -234,8 +243,8 @@
                     
                 }
                 .gridVIVO{
+                    margin: 0px auto;
                     margin-top: 1rem;
-                    margin-left: 4rem;
                     width: 30rem;
                     height: 33rem;
                     .vivo{
@@ -251,7 +260,7 @@
                     }
                 }
                 .gridRE{
-                    margin-left: 4rem;
+                    margin: 0px auto;
                     margin-top: 1rem;
                     width: 30rem;
                     height: 33rem;
@@ -265,7 +274,7 @@
                     }
                 }
                 .gridRE2{
-                    margin-left: 4rem;
+                    margin: 0px auto;
                     margin-top: 1rem;
                     width: 30rem;
                     height: 33rem;
@@ -279,9 +288,13 @@
                     }
                 }
                 .gridada{
-                    margin-left: 4rem;
+                    margin: 0px auto;
                     width: 30rem;
                     height: 33rem;
+                    margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(155,34,38,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(155,34,38,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(155,34,38,0.75);
                     .ada{
                         width: 27rem;
                         height: 27rem;
@@ -292,9 +305,13 @@
                     }
                 }
                 .gridAmeri{
-                    margin-left: 4rem;
+                    margin: 0px auto;
                     width: 30rem;
                     height: 33rem;
+                    margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(34,51,136,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(34,51,136,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(34,51,136,0.75);
                     .ameri{
                         width: 27rem;
                         height: 27rem;
@@ -351,6 +368,7 @@
                     justify-items: center;
                     margin: 0px auto;
                     background-color: black;
+                    margin-bottom: 1rem;
                     .contenedor{
                         width: 78px;
                         height: 80px;
@@ -365,7 +383,8 @@
             .sed{
                 width: 100%;
                 margin-bottom: 1rem !important;
-                margin-top: 1rem !important;
+                margin-top: -9rem !important;
+                overflow: visible;
             }
         }
     }
