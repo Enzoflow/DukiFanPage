@@ -1502,7 +1502,21 @@ body main .bio .tex_bio2 .tex_img {
   }
   body main .conteiner .areaT .titu {
     margin-left: 0rem;
-    font-size: 3rem;
+    font-size: 3.2rem;
+  }
+  body main .conteiner .areaT .titu24 {
+    font-size: 7rem;
+    margin-left: 1rem;
+  }
+  body main .conteiner .areaT .tituMu {
+    font-size: 3.5rem;
+    margin-left: 1rem;
+    width: 34rem;
+  }
+  body main .conteiner .areaT .vivoTI {
+    width: 19rem;
+    font-size: 2.8rem;
+    margin-left: 0rem;
   }
   body main .conteiner .album {
     margin: 0px auto;
@@ -1517,7 +1531,23 @@ body main .bio .tex_bio2 .tex_img {
   body main .conteiner .areatex .texto {
     width: 32rem;
     margin-left: 0rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     padding: 1rem;
+  }
+  body main .conteiner .areatex .tex24 {
+    margin-left: 0rem;
+    width: 32rem;
+    font-size: 1.2rem;
+  }
+  body main .conteiner .areatex .texMu {
+    margin-left: 0rem;
+    font-size: 1.2rem;
+    width: 31rem;
+  }
+  body main .conteiner .areatex .texVivo {
+    font-size: 1.3rem;
+    margin-left: 0rem;
+    width: 30rem;
+    margin-top: 1rem;
   }
 }/*# sourceMappingURL=estilos.css.map */
