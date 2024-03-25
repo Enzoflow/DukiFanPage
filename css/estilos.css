@@ -625,7 +625,6 @@ body main .conteiner .album {
 }
 body main .conteiner .areatex {
   grid-area: tex;
-  width: 1rem;
 }
 body main .conteiner .areatex .texto {
   font-size: 2rem;
@@ -1150,6 +1149,7 @@ body main .bio .tex_bio2 .tex_img {
     width: 100%;
     height: 25rem;
     border-bottom: solid #9d0208;
+    background-image: url("../medios/dukiVelez.jpeg") !important;
   }
   body main section div .tituloDuko {
     font-size: 7rem;
@@ -1489,8 +1489,35 @@ body main .bio .tex_bio2 .tex_img {
   }
   body main .sed {
     width: 100%;
-    margin-bottom: 1rem !important;
+    margin-bottom: -6rem !important;
     margin-top: -9rem !important;
     overflow: visible;
+  }
+  body main .conteiner {
+    grid-template-columns: 1fr;
+    grid-template-areas: "titu" "tex" "spoti";
+  }
+  body main .conteiner .areaT {
+    margin: 0px auto;
+  }
+  body main .conteiner .areaT .titu {
+    margin-left: 0rem;
+    font-size: 3rem;
+  }
+  body main .conteiner .album {
+    margin: 0px auto;
+    width: 95%;
+  }
+  body main .conteiner .album .disco {
+    width: 100%;
+  }
+  body main .conteiner .areatex {
+    margin: 0px auto;
+  }
+  body main .conteiner .areatex .texto {
+    width: 32rem;
+    margin-left: 0rem;
+    font-size: 1.5rem;
+    padding: 1rem;
   }
 }/*# sourceMappingURL=estilos.css.map */
