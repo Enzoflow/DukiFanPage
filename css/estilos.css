@@ -997,37 +997,36 @@ body main .bio .tex_bio2 .tex_img {
   border-left: solid #9d0208;
 }
 
-.bodyAmeri header .navAmeri {
+body header .navAmeri {
   height: 4rem;
   background: #48cae4 !important;
 }
-.bodyAmeri header .navAmeri div div {
+body header .navAmeri div div {
   justify-content: center;
 }
-.bodyAmeri header .navAmeri ul {
+body header .navAmeri ul {
   font-size: 3rem;
   font-family: "Annapurna SIL", serif;
 }
-.bodyAmeri main .conteinerAmeri {
+body main .conteinerAmeri {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px;
   grid-template-areas: "ameri video" "des video";
 }
-.bodyAmeri main .conteinerAmeri .tituloAmeri {
+body main .conteinerAmeri .tituloAmeri {
   grid-area: ameri;
 }
-.bodyAmeri main .conteinerAmeri .tituloAmeri .imgAmeri {
+body main .conteinerAmeri .tituloAmeri .imgAmeri {
   width: 49rem;
   height: 16rem;
   margin-left: 15rem;
   margin-top: 5rem;
 }
-.bodyAmeri main .conteinerAmeri .tituloA {
+body main .conteinerAmeri .tituloA {
   grid-area: des;
   padding: 1rem;
   margin-left: 10rem;
-  width: 60rem;
   height: 28rem;
   background: rgb(0, 180, 216);
   margin-top: -5rem;
@@ -1039,7 +1038,7 @@ body main .bio .tex_bio2 .tex_img {
   -moz-box-shadow: -1px 1px 48px 0px rgba(144, 224, 239, 0.75);
   margin-bottom: 3rem;
 }
-.bodyAmeri main .conteinerAmeri .tituloA .desc {
+body main .conteinerAmeri .tituloA .desc {
   font-size: 2rem;
   text-align: justify;
   width: 54rem;
@@ -1048,20 +1047,20 @@ body main .bio .tex_bio2 .tex_img {
   margin-left: 2rem;
   margin-top: 2rem;
 }
-.bodyAmeri main .conteinerAmeri .tituloA .desc .why {
+body main .conteinerAmeri .tituloA .desc .why {
   margin-left: 19rem;
   margin-top: -2rem;
 }
-.bodyAmeri main .conteinerAmeri .tituloA .ti {
+body main .conteinerAmeri .tituloA .ti {
   font-size: 3.5rem;
   margin-left: 22rem;
   color: white;
   text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
 }
-.bodyAmeri main .conteinerAmeri .video {
+body main .conteinerAmeri .video {
   grid-area: video;
 }
-.bodyAmeri main .conteinerAmeri .video .edit {
+body main .conteinerAmeri .video .edit {
   margin-left: 20rem;
   padding-top: 1rem;
   border-radius: 15px 15px 15px 15px;
@@ -1072,20 +1071,20 @@ body main .bio .tex_bio2 .tex_img {
   -moz-box-shadow: -1px 1px 48px 0px rgba(144, 224, 239, 0.75);
   margin-top: 3rem;
 }
-.bodyAmeri main .conteinerAmeri .adelantos {
+body main .conteinerAmeri .adelantos {
   grid-area: adelantos;
 }
-.bodyAmeri main .conteinerAmeri .adelantos .AdeTi {
+body main .conteinerAmeri .adelantos .AdeTi {
   font-size: 3rem;
   margin-left: 25rem;
   color: white;
   text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
 }
-.bodyAmeri main .conteinerAmeri .textoA {
+body main .conteinerAmeri .textoA {
   grid-area: tex;
   background: rgb(0, 180, 216);
 }
-.bodyAmeri main .conteinerAmeri .textoA .textomeri {
+body main .conteinerAmeri .textoA .textomeri {
   font-size: 2rem;
   margin-left: 20rem;
   width: 39rem;
@@ -1093,35 +1092,35 @@ body main .bio .tex_bio2 .tex_img {
   color: white;
   text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
 }
-.bodyAmeri main .temasA {
+body main .temasA {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px;
   grid-template-areas: "nom nom" "spo duki" "datos duki";
   margin-bottom: 1rem;
 }
-.bodyAmeri main .temasA .gridNombre {
+body main .temasA .gridNombre {
   grid-area: nom;
 }
-.bodyAmeri main .temasA .gridNombre .nombreTema {
+body main .temasA .gridNombre .nombreTema {
   margin-left: 30rem;
   width: 77rem;
   height: 15rem;
   margin-bottom: 1rem;
   margin-top: -3rem;
 }
-.bodyAmeri main .temasA .gridTema {
+body main .temasA .gridTema {
   grid-area: spo;
 }
-.bodyAmeri main .temasA .gridTema .smset {
+body main .temasA .gridTema .smset {
   padding: 1rem;
   margin-left: 3rem;
   margin-top: -19rem;
 }
-.bodyAmeri main .temasA .fotoTema {
+body main .temasA .fotoTema {
   grid-area: duki;
 }
-.bodyAmeri main .temasA .fotoTema .eltiempo {
+body main .temasA .fotoTema .eltiempo {
   width: 35rem;
   height: 47rem;
   margin-left: 21rem;
@@ -1130,14 +1129,14 @@ body main .bio .tex_bio2 .tex_img {
   -moz-border-radius: 18px 18px 18px 18px;
   margin-top: -18rem;
 }
-.bodyAmeri main .temasA .gridDatos {
+body main .temasA .gridDatos {
   grid-area: datos;
   font-size: 2rem;
   margin-left: 4rem;
   margin-top: -15rem;
   color: white;
 }
-.bodyAmeri .footerAmeri {
+body .footerAmeri {
   background: #48cae4;
 }
 
@@ -1518,6 +1517,20 @@ body main .bio .tex_bio2 .tex_img {
     font-size: 2.8rem;
     margin-left: 0rem;
   }
+  body main .conteiner .areaT .tiTR {
+    font-size: 3.2rem;
+    margin-left: 1rem;
+  }
+  body main .conteiner .areaT .tiTR2 {
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  body main .conteiner .areaT .tituAda {
+    font-size: 3.2rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+  }
   body main .conteiner .album {
     margin: 0px auto;
     width: 95%;
@@ -1549,5 +1562,99 @@ body main .bio .tex_bio2 .tex_img {
     margin-left: 0rem;
     width: 30rem;
     margin-top: 1rem;
+  }
+  body main .conteiner .areatex .texTR {
+    font-size: 1.5rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    width: 38rem;
+  }
+  body main .conteiner .areatex .texTR2 {
+    width: 34rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+  body main .conteiner .areatex .texAda {
+    width: 35rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+  }
+  body main .conteinerAmeri {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: "ameri" "des" "video";
+  }
+  body main .conteinerAmeri .tituloAmeri {
+    margin: 0px auto;
+  }
+  body main .conteinerAmeri .tituloAmeri .imgAmeri {
+    margin-left: 0rem;
+    width: 31rem;
+    height: 10rem;
+    margin-top: 1rem;
+  }
+  body main .conteinerAmeri .tituloA {
+    margin: 0px auto;
+    margin-left: 0rem;
+    margin-top: -17rem;
+    height: auto;
+    padding: 0rem;
+  }
+  body main .conteinerAmeri .tituloA .desc {
+    width: auto;
+    font-size: 1.5rem;
+    height: auto;
+    padding: 1rem;
+  }
+  body main .conteinerAmeri .tituloA .desc .why {
+    margin-left: 0rem;
+  }
+  body main .conteinerAmeri .tituloA .ti {
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  body main .conteinerAmeri .video .edit {
+    margin-left: 0rem;
+    width: 100%;
+  }
+  body main .temasA {
+    grid-template-columns: 1fr;
+    grid-template-areas: "nom" "duki" "spo" "datos";
+  }
+  body main .temasA .gridNombre {
+    margin: 0px auto;
+    margin-top: 7rem;
+  }
+  body main .temasA .gridNombre .nombreTema {
+    margin-left: 0rem;
+    width: 36rem;
+    height: 9rem;
+    margin-top: -5rem;
+  }
+  body main .temasA .gridTema {
+    margin: 0px auto;
+    width: 90%;
+  }
+  body main .temasA .gridTema .smset {
+    margin-top: 1rem;
+    margin-left: 0rem;
+    width: 100%;
+    margin-right: 1rem;
+  }
+  body main .temasA .fotoTema {
+    margin: 0px auto;
+  }
+  body main .temasA .fotoTema .eltiempo {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  body main .temasA .gridDatos {
+    margin: 0px auto;
+    margin-top: -10rem;
+    font-size: 1.7rem;
   }
 }/*# sourceMappingURL=estilos.css.map */

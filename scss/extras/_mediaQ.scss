@@ -413,6 +413,21 @@
                         font-size: 2.8rem;
                         margin-left: 0rem;
                     }
+                    .tiTR{
+                        font-size: 3.2rem;
+                        margin-left: 1rem;
+                    }
+                    .tiTR2{
+                        margin-left: 0rem;
+                        margin-bottom: 1rem;
+                        font-size: 2.5rem;
+                    }
+                    .tituAda{
+                        font-size: 3.2rem;
+                        margin-left: 0rem;
+                        margin-bottom: 0rem;
+
+                    }
                 }
                 .album{
                     margin: 0px auto;
@@ -446,6 +461,111 @@
                         width: 30rem;
                         margin-top: 1rem;
                     }
+                    .texTR{
+                        font-size: 1.5rem;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        width: 38rem;
+                    }
+                    .texTR2{
+                        width: 34rem;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        font-size: 1.8rem;
+                    }
+                    .texAda{
+                        width: 35rem;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+            .conteinerAmeri{
+                grid-template-columns: 1fr;
+                grid-template-rows: 300px;
+                grid-template-areas: 
+                "ameri"
+                "des"
+                "video";
+                .tituloAmeri{
+                    margin: 0px auto;
+                    
+                    .imgAmeri{
+                        margin-left: 0rem;
+                        width: 31rem;
+                        height: 10rem;
+                        margin-top: 1rem;
+
+                    }
+                }
+                .tituloA{
+                    margin: 0px auto;
+                    margin-left: 0rem;
+                    margin-top: -17rem;
+                    height: auto;
+                    padding: 0rem;
+                    .desc{
+                        width: auto;
+                        font-size: 1.5rem;
+                        height: auto;
+                        padding: 1rem;
+                        .why{
+                            margin-left: 0rem;
+                        }
+                    }
+                    .ti{
+                        font-size: 2rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .video{
+                    .edit{
+                        margin-left: 0rem;
+                        width: 100%;
+                    }
+                }
+            }
+            .temasA{
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                "nom"
+                "duki"
+                "spo"
+                "datos";
+                .gridNombre{
+                    margin: 0px auto;
+                    margin-top: 7rem;
+                    .nombreTema{
+                        margin-left: 0rem;
+                        width: 36rem;
+                        height: 9rem;
+                        margin-top: -5rem;
+                    }
+                }
+                .gridTema{
+                    margin: 0px auto;
+                    width: 90%;
+                    .smset{
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                        width: 100%;
+                        margin-right: 1rem;
+                    }
+                }
+                .fotoTema{
+                    margin: 0px auto;
+                    .eltiempo{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1rem;
+                        margin-right: 1rem;
+                    }
+                }
+                .gridDatos{
+                    margin: 0px auto;
+                    margin-top: -10rem;
+                    font-size: 1.7rem;
                 }
             }
         }
