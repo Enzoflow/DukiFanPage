@@ -69,11 +69,12 @@
                     margin: 0px auto;
                     
                     .texBio{
-                        width: 30rem;
+                        width: auto;
                         font-size: 1.7rem;
                         margin-left: 0rem;
                         margin-top: 1rem;
                         text-align: justify;
+                        padding: 1rem;
                     }
                 }
             }
@@ -110,22 +111,24 @@
                     margin: 0px auto;
 
                     .texto_bio{
-                        width: 28rem;
+                        width: auto;
                         font-size: 1.5rem;
                         margin-right: 1rem;
                         margin-top: 1rem;
                         margin-left: 0rem;
                         text-align: justify;
+                        padding: 1rem;
                     }
                     .titulo2{
                         margin-left: 0rem !important;
+                        padding-left: 1rem;
                     }
                     .texto_bio2{
                         font-size: 1.7rem;
-                        width: 33rem !important;
+                        width: auto !important;
                         margin-left: 0rem !important;
                         margin-top: 1rem;
-
+                        padding: 1rem;
                     }
                     .antezana{
                         width: 100%;
@@ -505,11 +508,16 @@
                     margin-top: -17rem;
                     height: auto;
                     padding: 0rem;
+                    background-color: inherit;
+                    -webkit-box-shadow: none;
                     .desc{
                         width: auto;
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                         height: auto;
                         padding: 1rem;
+                       
+                        margin-top: 0rem;
+                        margin-left: 0rem;
                         .why{
                             margin-left: 0rem;
                         }

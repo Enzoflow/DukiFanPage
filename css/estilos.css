@@ -1137,7 +1137,7 @@ body main .temasA .gridDatos {
   color: white;
 }
 body .footerAmeri {
-  background: #48cae4;
+  background: #000000;
 }
 
 @media only screen and (max-width: 500px) {
@@ -1201,11 +1201,12 @@ body .footerAmeri {
     margin: 0px auto;
   }
   body main .section2 .info .texBio {
-    width: 30rem;
+    width: auto;
     font-size: 1.7rem;
     margin-left: 0rem;
     margin-top: 1rem;
     text-align: justify;
+    padding: 1rem;
   }
   body main .bio {
     grid-template-columns: 1fr;
@@ -1239,21 +1240,24 @@ body .footerAmeri {
     margin: 0px auto;
   }
   body main .bio .tex_bio .texto_bio {
-    width: 28rem;
+    width: auto;
     font-size: 1.5rem;
     margin-right: 1rem;
     margin-top: 1rem;
     margin-left: 0rem;
     text-align: justify;
+    padding: 1rem;
   }
   body main .bio .tex_bio .titulo2 {
     margin-left: 0rem !important;
+    padding-left: 1rem;
   }
   body main .bio .tex_bio .texto_bio2 {
     font-size: 1.7rem;
-    width: 33rem !important;
+    width: auto !important;
     margin-left: 0rem !important;
     margin-top: 1rem;
+    padding: 1rem;
   }
   body main .bio .tex_bio .antezana {
     width: 100%;
@@ -1601,12 +1605,16 @@ body .footerAmeri {
     margin-top: -17rem;
     height: auto;
     padding: 0rem;
+    background-color: inherit;
+    -webkit-box-shadow: none;
   }
   body main .conteinerAmeri .tituloA .desc {
     width: auto;
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: auto;
     padding: 1rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
   }
   body main .conteinerAmeri .tituloA .desc .why {
     margin-left: 0rem;
