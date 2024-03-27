@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Bungee+Hairline&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 @import 'animate.css';
 * {
   margin: 0;
@@ -1012,7 +1013,7 @@ body main .conteinerAmeri {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px;
-  grid-template-areas: "ameri video" "des video";
+  grid-template-areas: "ameri des";
 }
 body main .conteinerAmeri .tituloAmeri {
   grid-area: ameri;
@@ -1026,17 +1027,9 @@ body main .conteinerAmeri .tituloAmeri .imgAmeri {
 body main .conteinerAmeri .tituloA {
   grid-area: des;
   padding: 1rem;
-  margin-left: 10rem;
+  margin-left: 6rem;
   height: 28rem;
-  background: rgb(0, 180, 216);
-  margin-top: -5rem;
-  border-radius: 15px 15px 15px 15px;
-  -webkit-border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  box-shadow: -1px 1px 48px 0px rgba(144, 224, 239, 0.75);
-  -webkit-box-shadow: -1px 1px 48px 0px rgba(144, 224, 239, 0.75);
-  -moz-box-shadow: -1px 1px 48px 0px rgba(144, 224, 239, 0.75);
-  margin-bottom: 3rem;
+  margin-top: -1rem;
 }
 body main .conteinerAmeri .tituloA .desc {
   font-size: 2rem;
@@ -1046,6 +1039,7 @@ body main .conteinerAmeri .tituloA .desc {
   text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
   margin-left: 2rem;
   margin-top: 2rem;
+  font-family: "Playfair Display", serif;
 }
 body main .conteinerAmeri .tituloA .desc .why {
   margin-left: 19rem;
@@ -1082,7 +1076,6 @@ body main .conteinerAmeri .adelantos .AdeTi {
 }
 body main .conteinerAmeri .textoA {
   grid-area: tex;
-  background: rgb(0, 180, 216);
 }
 body main .conteinerAmeri .textoA .textomeri {
   font-size: 2rem;
@@ -1127,7 +1120,11 @@ body main .temasA .fotoTema .eltiempo {
   border-radius: 18px 18px 18px 18px;
   -webkit-border-radius: 18px 18px 18px 18px;
   -moz-border-radius: 18px 18px 18px 18px;
-  margin-top: -18rem;
+  margin-top: -20rem;
+  margin-bottom: 1rem;
+  box-shadow: -1px -3px 52px 23px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -3px 52px 23px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -3px 52px 23px rgba(0, 0, 0, 0.75);
 }
 body main .temasA .gridDatos {
   grid-area: datos;
@@ -1135,9 +1132,11 @@ body main .temasA .gridDatos {
   margin-left: 4rem;
   margin-top: -15rem;
   color: white;
+  font-family: "Playfair Display", serif;
 }
 body .footerAmeri {
-  background: #000000;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 52%, rgb(155, 34, 38) 100%);
 }
 
 @media only screen and (max-width: 500px) {
