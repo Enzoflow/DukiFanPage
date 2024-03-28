@@ -28,7 +28,7 @@ body{
                 grid-area: titu;
                 .titu{
                     font-size: 5rem;
-                    color: #4281a4;
+                    color: white;
                     margin-left: 40rem;
                     margin-bottom: 2.5rem;
                     text-shadow: -2px 0px 17px rgba(0,0,0,0.6);
@@ -45,19 +45,17 @@ body{
                 grid-area: tex;
                 
                 .texto{
+                    font-family: "Annapurna SIL", serif;
                     font-size: 2rem;
                     color: white;
                     width: 60rem;
                     margin-left: 32rem;
                     text-align: justify;
-                    background-color: #4281a4;
                     padding: 2rem;
                     border-radius: 19px 19px 19px 19px;
                     -webkit-border-radius: 19px 19px 19px 19px;
                     -moz-border-radius: 19px 19px 19px 19px;
-                    box-shadow: -1px 0px 17px 5px rgba(66,129,164,0.75);
-                    -webkit-box-shadow: -1px 0px 17px 5px rgba(66,129,164,0.75);
-                    -moz-box-shadow: -1px 0px 17px 5px rgba(66,129,164,0.75);
+
                 }
             }
         }

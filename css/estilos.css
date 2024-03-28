@@ -613,7 +613,7 @@ body main .conteiner .areaT {
 }
 body main .conteiner .areaT .titu {
   font-size: 5rem;
-  color: #4281a4;
+  color: white;
   margin-left: 40rem;
   margin-bottom: 2.5rem;
   text-shadow: -2px 0px 17px rgba(0, 0, 0, 0.6);
@@ -628,19 +628,16 @@ body main .conteiner .areatex {
   grid-area: tex;
 }
 body main .conteiner .areatex .texto {
+  font-family: "Annapurna SIL", serif;
   font-size: 2rem;
   color: white;
   width: 60rem;
   margin-left: 32rem;
   text-align: justify;
-  background-color: #4281a4;
   padding: 2rem;
   border-radius: 19px 19px 19px 19px;
   -webkit-border-radius: 19px 19px 19px 19px;
   -moz-border-radius: 19px 19px 19px 19px;
-  box-shadow: -1px 0px 17px 5px rgba(66, 129, 164, 0.75);
-  -webkit-box-shadow: -1px 0px 17px 5px rgba(66, 129, 164, 0.75);
-  -moz-box-shadow: -1px 0px 17px 5px rgba(66, 129, 164, 0.75);
 }
 body .footerSSJ {
   background-color: rgb(2, 62, 138);
@@ -681,6 +678,7 @@ body main .conteiner .areatex .tex24 {
   border-radius: 14px 14px 14px 14px;
   -webkit-border-radius: 14px 14px 14px 14px;
   -moz-border-radius: 14px 14px 14px 14px;
+  font-family: "Annapurna SIL", serif;
 }
 body .footerEP {
   background: rgb(255, 173, 173);
@@ -713,14 +711,10 @@ body main .conteiner .areatex .texMu {
   width: 49rem;
   padding: 2rem;
   text-align: justify;
-  background: rgb(156, 102, 68);
-  background: radial-gradient(circle, rgb(156, 102, 68) 76%, rgb(119, 73, 54) 100%);
   border-radius: 14px 14px 14px 14px;
   -webkit-border-radius: 14px 14px 14px 14px;
   -moz-border-radius: 14px 14px 14px 14px;
-  box-shadow: 0px 3px 28px 0px rgba(227, 100, 20, 0.75);
-  -webkit-box-shadow: 0px 3px 28px 0px rgba(227, 100, 20, 0.75);
-  -moz-box-shadow: 0px 3px 28px 0px rgba(227, 100, 20, 0.75);
+  font-family: "Annapurna SIL", serif;
 }
 body .footerMu {
   background: rgb(156, 102, 68);
@@ -1259,7 +1253,7 @@ body .footerAmeri {
     padding: 1rem;
   }
   body main .bio .tex_bio .antezana {
-    width: 100%;
+    width: 97%;
     height: 34rem;
     margin-left: 0.5rem;
     margin-top: 0rem;
@@ -1272,7 +1266,7 @@ body .footerAmeri {
     font-size: 1.2rem;
   }
   body main .bio .tex_bio .mapa {
-    width: 100%;
+    width: 97%;
     height: 34rem;
     margin-left: 0.5rem;
   }
@@ -1505,15 +1499,21 @@ body .footerAmeri {
   body main .conteiner .areaT .titu {
     margin-left: 0rem;
     font-size: 3.2rem;
+    color: white;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
   }
   body main .conteiner .areaT .titu24 {
     font-size: 7rem;
     margin-left: 1rem;
+    color: black;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
   }
   body main .conteiner .areaT .tituMu {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-left: 1rem;
-    width: 34rem;
+    width: 29rem;
+    color: black;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
   }
   body main .conteiner .areaT .vivoTI {
     width: 19rem;
@@ -1545,20 +1545,33 @@ body .footerAmeri {
     margin: 0px auto;
   }
   body main .conteiner .areatex .texto {
-    width: 32rem;
+    width: auto;
     margin-left: 0rem;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     padding: 1rem;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    color: white;
+    font-family: "Annapurna SIL", serif;
   }
   body main .conteiner .areatex .tex24 {
     margin-left: 0rem;
-    width: 32rem;
-    font-size: 1.2rem;
+    width: auto;
+    font-size: 1.7rem;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    padding: 1rem;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
   }
   body main .conteiner .areatex .texMu {
     margin-left: 0rem;
-    font-size: 1.2rem;
-    width: 31rem;
+    font-size: 1.7rem;
+    width: auto;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    padding: 1.2rem;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    color: black;
   }
   body main .conteiner .areatex .texVivo {
     font-size: 1.3rem;
