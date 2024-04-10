@@ -516,7 +516,6 @@ main .bannerRedes .redes .contenedor {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-right: 0rem !important;
 }
 main .bannerRedes .redes .contenedor .ig {
   width: 7rem;
@@ -1472,8 +1471,8 @@ body .footerAmeri {
     border: none;
     -moz-column-gap: 2rem;
          column-gap: 2rem;
-    border-bottom-left-radius: 10rem 8rem;
-    border-bottom-right-radius: 10rem 8rem;
+    border-bottom-left-radius: 13rem 23rem;
+    border-bottom-right-radius: 13rem 23rem;
   }
   body main .bannerRedes .redes .contenedor {
     width: 78px;
@@ -1483,6 +1482,9 @@ body .footerAmeri {
   body main .bannerRedes .redes .contenedor .fc {
     width: 19rem;
     height: 19rem;
+  }
+  body main .bannerRedes .redes .re {
+    margin-right: -9rem;
   }
   body main .sed {
     width: 100%;
@@ -1998,6 +2000,9 @@ body .footerAmeri {
     width: 19rem;
     height: 19rem;
   }
+  body main .bannerRedes .redes .re {
+    margin-right: -9rem;
+  }
   body main .sed {
     width: 100%;
     margin-bottom: -6rem !important;
@@ -2088,4 +2093,502 @@ body .footerAmeri {
     border-left: none;
     border-right: none;
   }
+}
+@media only screen and (min-width: 850px) and (max-width: 1100px) {
+  body header nav div .menu {
+    background-color: gray !important;
+  }
+  body header nav div .menu .menu2 {
+    color: black !important;
+  }
+  body header nav div ul li .colora {
+    color: black !important;
+  }
+  body main {
+    display: block;
+  }
+  body main section div .bannerIMG {
+    width: 100%;
+    height: 35rem;
+    border-bottom: solid #9d0208;
+  }
+  body main section div .tituloDuko {
+    font-size: 7rem;
+    margin-left: 5rem;
+    margin-top: -21rem;
+    color: #d00000;
+    font-family: "Playfair Display", serif;
+    text-shadow: 3px -2px 10px rgba(236, 24, 24, 0.38);
+    margin-bottom: 12rem;
+  }
+  body main section div .alas {
+    width: 14rem;
+    height: 14rem;
+    margin-top: -33rem;
+    margin-left: 23rem;
+  }
+  body main .section2 {
+    border: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-template-areas: "why foto" "tex foto" "bio bio";
+  }
+  body main .section2 .titulo2 {
+    margin: 0px auto;
+  }
+  body main .section2 .titulo2 .tituloPER {
+    font-size: 5rem;
+    margin-top: 6rem;
+    width: 35rem;
+    margin-left: 0rem;
+  }
+  body main .section2 .texINFO {
+    margin: 0px auto;
+  }
+  body main .section2 .texINFO .texPER {
+    width: auto;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+    margin-top: -26rem;
+    padding: 1rem;
+  }
+  body main .section2 .imgDUKI {
+    margin: 0px auto;
+  }
+  body main .section2 .imgDUKI .imgPER {
+    width: 34rem;
+    height: 34rem;
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  body main .section2 .info {
+    margin: 0px auto;
+  }
+  body main .section2 .info .texBio {
+    width: auto;
+    font-size: 2rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    text-align: justify;
+    padding: 1rem;
+  }
+  body main .bio {
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    grid-template-areas: "foto titulo" "tex2 tex" "tex2 tex";
+    margin-bottom: 2rem;
+  }
+  body main .bio .imagen_bio {
+    border-left: none;
+    border-right: none;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0px auto;
+  }
+  body main .bio .imagen_bio .img_bio {
+    width: 26rem;
+    height: 26rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  body main .bio .titu_bio {
+    margin: 0px auto;
+  }
+  body main .bio .titu_bio .titulo {
+    font-size: 4rem;
+    margin-left: 0rem;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  body main .bio .tex_bio {
+    margin: 0px auto;
+  }
+  body main .bio .tex_bio .texto_bio {
+    width: auto;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-top: -33rem;
+    margin-left: 0rem;
+    text-align: justify;
+    padding: 1rem;
+  }
+  body main .bio .tex_bio .titulo2 {
+    margin-left: 0rem !important;
+    padding-left: 1rem;
+  }
+  body main .bio .tex_bio .texto_bio2 {
+    font-size: 1.7rem;
+    width: auto !important;
+    margin-left: 0rem !important;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  body main .bio .tex_bio .antezana {
+    width: 97%;
+    height: 56rem;
+    margin-left: 0.5rem;
+    margin-top: 0rem;
+  }
+  body main .bio .tex_bio .trap {
+    margin-left: 8rem;
+    margin-top: 1rem;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 1.2rem;
+  }
+  body main .bio .tex_bio .mapa {
+    width: 97%;
+    height: 34rem;
+    margin-left: 0.5rem;
+  }
+  body main .bio .tex_bio2 {
+    border-bottom: solid;
+  }
+  body main .bio .tex_bio2 .tex_img {
+    width: 32rem;
+    height: 53rem;
+    margin-top: -13rem;
+    margin-left: 0rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  body main .albums {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 145px;
+    grid-template-areas: "titulo titulo" "tex tex" "ssj ep" "defdm defdmVIVO" "TR1 TR2" "ada ameri";
+  }
+  body main .albums .gridT {
+    margin: 0px auto;
+  }
+  body main .albums .gridT .tituloDIS {
+    font-size: 5rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+  body main .albums .gridTEX {
+    margin: 0px auto;
+  }
+  body main .albums .gridTEX .texDIS {
+    font-size: 2rem;
+    margin-left: 0rem;
+    margin-top: -6rem;
+    width: auto;
+  }
+  body main .albums .gridSSJ {
+    margin: 0px auto;
+    width: 30rem;
+    height: 33rem;
+    margin-top: 1rem;
+    box-shadow: -1px 0px 35px 11px rgba(17, 51, 136, 0.75);
+    -webkit-box-shadow: -1px 0px 35px 11px rgba(17, 51, 136, 0.75);
+    -moz-box-shadow: -1px 0px 35px 11px rgba(17, 51, 136, 0.75);
+  }
+  body main .albums .gridSSJ .ssj {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridSSJ .ssjTITU {
+    font-size: 2.5rem;
+    margin-left: 4rem;
+  }
+  body main .albums .gridMundo {
+    margin: 0px auto;
+    width: 30rem;
+    height: 33rem;
+    margin-top: 1rem;
+    box-shadow: -1px 0px 35px 11px rgba(227, 100, 20, 0.75);
+    -webkit-box-shadow: -1px 0px 35px 11px rgba(227, 100, 20, 0.75);
+    -moz-box-shadow: -1px 0px 35px 11px rgba(227, 100, 20, 0.75);
+  }
+  body main .albums .gridMundo .defdm {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridMundo .mundoTITU {
+    height: 1rem;
+    font-size: 2.1rem;
+    margin-left: 4rem;
+  }
+  body main .albums .grid24 {
+    margin: 0px auto;
+    grid-area: ep;
+    margin-top: 1rem;
+    width: 30rem;
+    height: 33rem;
+  }
+  body main .albums .grid24 .ep {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .grid24 .epTITU {
+    margin-left: 13rem;
+  }
+  body main .albums .gridVIVO {
+    margin: 0px auto;
+    margin-top: 1rem;
+    width: 30rem;
+    height: 33rem;
+  }
+  body main .albums .gridVIVO .vivo {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridVIVO .vivoTE {
+    font-size: 1rem;
+  }
+  body main .albums .gridVIVO .vivoTI {
+    font-size: 2rem;
+  }
+  body main .albums .gridRE {
+    margin: 0px auto;
+    margin-top: 1rem;
+    width: 30rem;
+    height: 33rem;
+  }
+  body main .albums .gridRE .tem1 {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridRE .regg {
+    font-size: 2rem;
+  }
+  body main .albums .gridRE2 {
+    margin: 0px auto;
+    margin-top: 1rem;
+    width: 30rem;
+    height: 33rem;
+  }
+  body main .albums .gridRE2 .tem2 {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridRE2 .regg2 {
+    font-size: 2rem;
+  }
+  body main .albums .gridada {
+    margin: 0px auto;
+    width: 30rem;
+    height: 33rem;
+    margin-top: 1rem;
+    box-shadow: -1px 0px 35px 11px rgba(155, 34, 38, 0.75);
+    -webkit-box-shadow: -1px 0px 35px 11px rgba(155, 34, 38, 0.75);
+    -moz-box-shadow: -1px 0px 35px 11px rgba(155, 34, 38, 0.75);
+  }
+  body main .albums .gridada .ada {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridada .adaTI {
+    font-size: 3rem;
+  }
+  body main .albums .gridAmeri {
+    margin: 0px auto;
+    width: 30rem;
+    height: 33rem;
+    margin-top: 1rem;
+    box-shadow: -1px 0px 35px 11px rgba(34, 51, 136, 0.75);
+    -webkit-box-shadow: -1px 0px 35px 11px rgba(34, 51, 136, 0.75);
+    -moz-box-shadow: -1px 0px 35px 11px rgba(34, 51, 136, 0.75);
+  }
+  body main .albums .gridAmeri .ameri {
+    width: 27rem;
+    height: 27rem;
+    margin-left: 1.5rem;
+  }
+  body main .albums .gridAmeri .ameriTI {
+    font-size: 3rem;
+  }
+  body main .bannerRedes {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    grid-template-areas: "se se" "foto ti" "foto redes" "sed sed";
+    height: 4rem;
+  }
+  body main .bannerRedes .sepa {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  body main .bannerRedes .fotogrid {
+    margin: 0px auto;
+  }
+  body main .bannerRedes .fotogrid .dukiRedes {
+    width: 36rem;
+    height: 36rem;
+    margin-left: 0rem;
+    margin-top: -14rem;
+  }
+  body main .bannerRedes .titugrid {
+    margin: 0px auto;
+  }
+  body main .bannerRedes .titugrid .tituloRedes {
+    margin-left: 0rem;
+    font-size: 2.5rem;
+    margin-top: -16rem;
+  }
+  body main .bannerRedes .redes {
+    margin-left: 1rem;
+    flex-direction: column;
+    width: -moz-min-content;
+    width: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-template-areas: "ig x spo" "tik face you" "apple apple apple";
+    justify-items: center;
+    margin: 0px auto;
+    background-color: #343a40;
+    margin-bottom: 12rem;
+    border-bottom-left-radius: 13rem 23rem;
+    border-bottom-right-radius: 13rem 23rem;
+    margin-top: -12rem;
+  }
+  body main .bannerRedes .redes .contenedor {
+    width: 78px;
+    height: 80px;
+    margin-bottom: 1rem;
+    margin: 0px auto;
+  }
+  body main .bannerRedes .redes .contenedor .fc {
+    width: 19rem;
+    height: 19rem;
+  }
+  body main .bannerRedes .redes .re {
+    margin-right: -9rem;
+  }
+  body main .sed {
+    width: 100%;
+    margin-bottom: -6rem !important;
+    margin-top: -9rem !important;
+    overflow: visible;
+  }
+}
+body main .galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  grid-template-areas: "f1 f2 f3" "f4 f5 f5" "f6 f7 f8" "f9 f10 f8" "f11 f11 f12";
+  margin-bottom: 20rem;
+  gap: 8rem;
+}
+body main .galeria .f1 {
+  grid-area: f1;
+}
+body main .galeria .f1 .imagen1 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f2 {
+  grid-area: f2;
+}
+body main .galeria .f2 .imagen2 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 1rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f3 {
+  grid-area: f3;
+}
+body main .galeria .f3 .imagen3 {
+  width: 37rem;
+  height: 37rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f4 {
+  grid-area: f4;
+}
+body main .galeria .f4 .imagen4 {
+  width: 37rem;
+  height: 39rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f5 {
+  grid-area: f5;
+}
+body main .galeria .f5 .imagen5 {
+  width: 83.7rem;
+  height: 39rem;
+  margin-left: 1rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f6 {
+  grid-area: f6;
+}
+body main .galeria .f6 .imagen6 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+}
+body main .galeria .f7 {
+  grid-area: f7;
+}
+body main .galeria .f7 .imagen7 {
+  width: 37rem;
+  height: 37rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  margin-left: 1rem;
+}
+body main .galeria .f8 {
+  grid-area: f8;
+}
+body main .galeria .f8 .imagen8 {
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  width: 44rem;
+  height: 52rem;
+  margin-left: -7rem;
+}
+body main .galeria .f9 {
+  grid-area: f9;
+}
+body main .galeria .f9 .imagen9 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+}
+body main .galeria .f10 {
+  grid-area: f10;
+}
+body main .galeria .f10 .imagen10 {
+  width: 37rem;
+  height: 37rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  margin-left: 1rem;
+}
+body main .galeria .f11 {
+  grid-area: f11;
+}
+body main .galeria .f11 .imagen11 {
+  width: 83.6rem;
+  height: 50rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  margin-left: 2rem;
+}
+body main .galeria .f12 {
+  grid-area: f12;
+}
+body main .galeria .f12 .imagen12 {
+  width: 44rem;
+  height: 43rem;
+  border: 7px outset #9b2226;
+  margin-top: -30rem;
+  margin-left: -7rem;
 }/*# sourceMappingURL=estilos.css.map */

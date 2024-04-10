@@ -393,8 +393,8 @@
                     margin-bottom: 3rem;
                     border: none;
                     column-gap: 2rem;
-                    border-bottom-left-radius: 10rem 8rem;
-                    border-bottom-right-radius: 10rem 8rem;
+                    border-bottom-left-radius: 13rem 23rem;
+                    border-bottom-right-radius: 13rem 23rem;
                     .contenedor{
                         width: 78px;
                         height: 80px;
@@ -403,6 +403,9 @@
                             width: 19rem;
                             height: 19rem;
                         }
+                    }
+                    .re{
+                        margin-right: -9rem;
                     }
                 }
             }
@@ -993,6 +996,9 @@
                             height: 19rem;
                         }
                     }
+                    .re{
+                        margin-right: -9rem;
+                    }
                 }
             }
             .sed{
@@ -1090,4 +1096,420 @@
             }
         }
     }
-}                
+}
+@media only screen and (min-width:850px) and (max-width:1100px){
+    body{
+        header{
+            nav{
+                div{
+                    .menu{
+                        background-color: gray !important;
+                        .menu2{
+                            color: black !important;
+                        }  
+                    }
+                    ul{
+                        li{
+                            .colora{
+                                color: black !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main{
+            display: block;
+            section{
+                div{
+                    .bannerIMG{
+                        width: 100%;
+                        height: 35rem;
+                        border-bottom: solid #9d0208;
+                        
+                    }
+            
+                    .tituloDuko{
+                        font-size: 7rem;
+                        margin-left: 5rem;
+                        margin-top: -21rem;
+                        color: #d00000;
+                        font-family: "Playfair Display", serif;
+                        text-shadow: 3px -2px 10px rgba(236,24,24,0.38);
+                        margin-bottom: 12rem;
+                    }
+            
+                    .alas{
+                        width: 14rem;
+                        height: 14rem;
+                        margin-top: -33rem;
+                        margin-left: 23rem;
+                    }
+                }
+            }
+            .section2{
+                border: none;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 400px;
+                grid-template-areas: 
+                "why foto"
+                "tex foto"
+                "bio bio";
+                .titulo2{
+                    margin: 0px auto;
+                    .tituloPER{
+                        font-size: 5rem;
+                        margin-top: 6rem;
+                        width: 35rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .texINFO{
+                    margin: 0px auto;
+                    .texPER{
+                        width: auto;
+                        font-size: 2.5rem;
+                        margin-left: 3rem;
+                        margin-top: -26rem;
+                        padding: 1rem;
+                    }
+                }
+                .imgDUKI{
+                    margin: 0px auto;
+                    .imgPER{
+                        width: 34rem;
+                        height: 34rem;
+                        margin-left: 0rem;
+                        margin-top: 3rem;
+                    }
+                }
+                .info{
+                    margin: 0px auto;
+                    
+                    .texBio{
+                        width: auto;
+                        font-size: 2rem;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        text-align: justify;
+                        padding: 1rem;
+                    }
+                }
+            }
+            .bio{
+                grid-template-columns: 1fr;
+                grid-template-rows: 400px;
+                grid-template-areas: 
+                "foto titulo"
+                "tex2 tex"
+                "tex2 tex";
+                margin-bottom: 2rem;
+                .imagen_bio{
+                    border-left: none;
+                    border-right: none;
+                    width: max-content;
+                    margin: 0px auto;
+                    .img_bio{
+                        width: 26rem;
+                        height: 26rem;
+                        margin-top: 0rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .titu_bio{
+                    margin: 0px auto;
+                    .titulo{
+                        font-size: 4rem;
+                        margin-left: 0rem;
+                        width: max-content;
+                    }
+                }
+                .tex_bio{
+                    margin: 0px auto;
+
+                    .texto_bio{
+                        width: auto;
+                        font-size: 1.5rem;
+                        margin-right: 1rem;
+                        margin-top: -33rem;
+                        margin-left: 0rem;
+                        text-align: justify;
+                        padding: 1rem;
+                    }
+                    .titulo2{
+                        margin-left: 0rem !important;
+                        padding-left: 1rem;
+                    }
+                    .texto_bio2{
+                        font-size: 1.7rem;
+                        width: auto !important;
+                        margin-left: 0rem !important;
+                        margin-top: 1rem;
+                        padding: 1rem;
+                    }
+                    .antezana{
+                        width: 97%;
+                        height: 56rem;
+                        margin-left: 0.5rem;
+                        margin-top: 0rem;
+                    }
+                    .trap{
+                        margin-left: 8rem;
+                        margin-top: 1rem;
+                        width: max-content;
+                        font-size: 1.2rem;
+                    }
+                    .mapa{
+                        width: 97%;
+                        height: 34rem;
+                        margin-left: 0.5rem;
+                    }
+                }
+                .tex_bio2{
+                    border-bottom: solid;
+                    .tex_img{
+                        width: 32rem;
+                        height: 53rem;
+                        margin-top: -13rem;
+                        margin-left: 0rem;
+                        border-bottom: none;
+                        border-left: none;
+                        border-right: none;
+                    }
+                }
+            }
+            .albums{
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 145px;
+                grid-template-areas: 
+                "titulo titulo"
+                "tex tex"
+                "ssj ep"
+                "defdm defdmVIVO"
+                "TR1 TR2"
+                "ada ameri";
+                .gridT{
+                    margin: 0px auto;
+                    .tituloDIS{
+                        font-size: 5rem;
+                        margin-left: 0rem;
+                        margin-top: 2rem;
+                    }
+                }
+                .gridTEX{
+                    margin: 0px auto;
+                    .texDIS{
+                        font-size: 2rem;
+                        margin-left: 0rem;
+                        margin-top: -6rem;
+                        width: auto;
+                    }
+                }
+                .gridSSJ{
+                    margin: 0px auto;
+                    width: 30rem;
+                    height: 33rem;
+                    margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(17,51,136,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(17,51,136,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(17,51,136,0.75);
+                    .ssj{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .ssjTITU{
+                        font-size: 2.5rem;
+                        margin-left: 4rem;
+                    }
+                }
+                .gridMundo{
+                    margin: 0px auto;
+                    width: 30rem;
+                    height: 33rem;
+                    margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(227,100,20,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(227,100,20,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(227,100,20,0.75);
+                    .defdm{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .mundoTITU{
+                        height: 1rem;
+                        font-size: 2.1rem;
+                        margin-left: 4rem;
+                    }
+                }
+                .grid24{
+                    margin: 0px auto;
+                    grid-area: ep;
+                    margin-top: 1rem;
+                    width: 30rem;
+                    height: 33rem;
+                    .ep{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .epTITU{
+                        margin-left: 13rem;
+                    }
+                    
+                }
+                .gridVIVO{
+                    margin: 0px auto;
+                    margin-top: 1rem;
+                    width: 30rem;
+                    height: 33rem;
+                    .vivo{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .vivoTE{
+                        font-size: 1rem;
+                    }
+                    .vivoTI{
+                        font-size: 2rem;
+                    }
+                }
+                .gridRE{
+                    margin: 0px auto;
+                    margin-top: 1rem;
+                    width: 30rem;
+                    height: 33rem;
+                    .tem1{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .regg{
+                        font-size: 2rem;
+                    }
+                }
+                .gridRE2{
+                    margin: 0px auto;
+                    margin-top: 1rem;
+                    width: 30rem;
+                    height: 33rem;
+                    .tem2{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .regg2{
+                        font-size: 2rem;
+                    }
+                }
+                .gridada{
+                    margin: 0px auto;
+                    width: 30rem;
+                    height: 33rem;
+                    margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(155,34,38,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(155,34,38,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(155,34,38,0.75);
+                    .ada{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .adaTI{
+                        font-size: 3rem;
+                    }
+                }
+                .gridAmeri{
+                    margin: 0px auto;
+                    width: 30rem;
+                    height: 33rem;
+                    margin-top: 1rem;
+                    box-shadow: -1px 0px 35px 11px rgba(34,51,136,0.75);
+                    -webkit-box-shadow: -1px 0px 35px 11px rgba(34,51,136,0.75);
+                    -moz-box-shadow: -1px 0px 35px 11px rgba(34,51,136,0.75);
+                    .ameri{
+                        width: 27rem;
+                        height: 27rem;
+                        margin-left: 1.5rem;
+                    }
+                    .ameriTI{
+                        font-size: 3rem;
+                    }
+                }
+            }
+            .bannerRedes{
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 400px;
+                grid-template-areas: 
+                "se se"
+                "foto ti" 
+                "foto redes"
+                "sed sed";
+                height: 4rem;
+                .sepa{
+                    margin-top: 1rem;
+                    width: 100%;
+                }
+                .fotogrid{
+                    margin: 0px auto;
+                    .dukiRedes{
+                        width: 36rem;
+                        height: 36rem;
+                        margin-left: 0rem;
+                        margin-top: -14rem;
+                    }
+                }
+                .titugrid{
+                    margin: 0px auto;
+                    .tituloRedes{
+                        margin-left: 0rem;
+                        font-size: 2.5rem;
+                        margin-top: -16rem;
+
+                    }
+                }
+                .redes{
+                    margin-left: 1rem;
+                    flex-direction: column;
+                    width: min-content;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 100px;
+                    grid-template-areas:    
+                    "ig x spo"
+                    "tik face you"
+                    "apple apple apple";
+                    justify-items: center;
+                    margin: 0px auto;
+                    background-color: #343a40;
+                    margin-bottom: 12rem;
+                    border-bottom-left-radius: 13rem 23rem;
+                    border-bottom-right-radius: 13rem 23rem;
+                    margin-top: -12rem;
+                    .contenedor{
+                        width: 78px;
+                        height: 80px;
+                        margin-bottom: 1rem;
+                        margin: 0px auto;
+                        .fc{
+                            width: 19rem;
+                            height: 19rem;
+                        }
+                    }
+                    .re{
+                        margin-right: -9rem;
+                    }
+                }
+            }
+            .sed{
+                width: 100%;
+                margin-bottom: -6rem !important;
+                margin-top: -9rem !important;
+                overflow: visible
+            }
+        }    
+
+    }
+}
+                

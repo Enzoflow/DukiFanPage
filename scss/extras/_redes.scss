@@ -65,7 +65,6 @@ main{
                 align-items: center;
                 justify-content: center;
                 overflow: hidden;
-                margin-right: 0rem !important;
                 .ig{
                     width: 7rem;
                     height: 7rem;
@@ -136,6 +135,7 @@ main{
                }
 
             }
+            
         }
         .sed{
             grid-area: sed;

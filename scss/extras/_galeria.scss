@@ -1,0 +1,131 @@
+body{
+    main{
+        .galeria{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 300px;
+            grid-template-areas:
+            "f1 f2 f3"
+            "f4 f5 f5"
+            "f6 f7 f8"
+            "f9 f10 f8"
+            "f11 f11 f12";
+            margin-bottom: 20rem;
+            gap: 8rem;
+            .f1{
+                grid-area: f1;
+                .imagen1{
+                    width: 37rem;
+                    height: 37rem;
+                    margin-left: 2rem;
+                    border: 7px outset #9b2226;
+                }
+            }
+            .f2{
+                grid-area: f2;
+                .imagen2{
+                    width: 37rem;
+                    height: 37rem;
+                    margin-left: 1rem;
+                    border: 7px outset #9b2226;
+                }
+            }
+            .f3{
+                grid-area: f3;
+                .imagen3{
+                    width: 37rem;
+                    height: 37rem;
+                    border: 7px outset #9b2226;
+                }
+            }
+            .f4{
+                grid-area: f4;
+                .imagen4{
+                    width: 37rem;
+                    height: 39rem;
+                    margin-left: 2rem;
+                    border: 7px outset #9b2226;
+                }
+            }
+            .f5{
+                grid-area: f5;
+                .imagen5{
+                    width: 83.7rem;
+                    height: 39rem;
+                    margin-left: 1rem;
+                    border: 7px outset #9b2226;
+                }
+            }
+            .f6{
+                grid-area: f6;
+                .imagen6{
+                    width: 37rem;
+                    height: 37rem;
+                    margin-left: 2rem;
+                    border: 7px outset #9b2226;
+                    margin-top: -6rem;
+                }
+            }
+            .f7{
+                grid-area: f7;
+                .imagen7{
+                    width: 37rem;
+                    height: 37rem;
+                    border: 7px outset #9b2226;
+                    margin-top: -6rem;
+                    margin-left: 1rem;
+                }
+            }
+            .f8{
+                grid-area: f8;
+                .imagen8{
+                    border: 7px outset #9b2226;
+                    margin-top: -6rem;
+                    width: 44rem;
+                    height: 52rem;
+                    margin-left: -7rem;
+                }
+            }
+            .f9{
+                grid-area: f9;
+                .imagen9{
+                    width: 37rem;
+                    height: 37rem;
+                    margin-left: 2rem;
+                    border: 7px outset #9b2226;
+                    margin-top: -6rem;
+                }
+            }
+            .f10{
+                grid-area: f10;
+                .imagen10{
+                    width: 37rem;
+                    height: 37rem;
+                    border: 7px outset #9b2226;
+                    margin-top: -6rem;
+                    margin-left: 1rem;
+                }
+            }
+            .f11{
+                grid-area: f11;
+                .imagen11{
+                    width: 83.6rem;
+                    height: 50rem;
+                    border: 7px outset #9b2226;
+                    margin-top: -6rem;
+                    margin-left: 2rem;
+                }
+            }
+            .f12{
+                grid-area: f12;
+                .imagen12{
+                    width: 44rem;
+                    height: 43rem;
+                    border: 7px outset #9b2226;
+                    margin-top: -30rem;
+                    margin-left: -7rem;
+                }
+            }
+        }
+    }
+}
