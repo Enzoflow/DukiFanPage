@@ -9,15 +9,17 @@ body{
             "f4 f5 f5"
             "f6 f7 f8"
             "f9 f10 f8"
-            "f11 f11 f12";
-            margin-bottom: 20rem;
+            "f11 f11 f12"
+            "f13 f14 f15"
+            "f16 f17 f17";
+            margin-bottom: 2rem;
             gap: 8rem;
             .f1{
                 grid-area: f1;
                 .imagen1{
                     width: 37rem;
                     height: 37rem;
-                    margin-left: 2rem;
+                    margin-left: 8rem;
                     border: 7px outset #9b2226;
                 }
             }
@@ -26,7 +28,7 @@ body{
                 .imagen2{
                     width: 37rem;
                     height: 37rem;
-                    margin-left: 1rem;
+                    margin-left: -6rem;
                     border: 7px outset #9b2226;
                 }
             }
@@ -36,6 +38,7 @@ body{
                     width: 37rem;
                     height: 37rem;
                     border: 7px outset #9b2226;
+                    margin-left: -12rem;
                 }
             }
             .f4{
@@ -52,7 +55,7 @@ body{
                 .imagen5{
                     width: 83.7rem;
                     height: 39rem;
-                    margin-left: 1rem;
+                    margin-left: -12.4rem;
                     border: 7px outset #9b2226;
                 }
             }
@@ -73,7 +76,7 @@ body{
                     height: 37rem;
                     border: 7px outset #9b2226;
                     margin-top: -6rem;
-                    margin-left: 1rem;
+                    margin-left: -12rem;
                 }
             }
             .f8{
@@ -83,7 +86,7 @@ body{
                     margin-top: -6rem;
                     width: 44rem;
                     height: 52rem;
-                    margin-left: -7rem;
+                    margin-left: -16rem;
                 }
             }
             .f9{
@@ -103,7 +106,7 @@ body{
                     height: 37rem;
                     border: 7px outset #9b2226;
                     margin-top: -6rem;
-                    margin-left: 1rem;
+                    margin-left: -12rem;
                 }
             }
             .f11{
@@ -120,10 +123,60 @@ body{
                 grid-area: f12;
                 .imagen12{
                     width: 44rem;
-                    height: 43rem;
+                    height: 50rem;
                     border: 7px outset #9b2226;
                     margin-top: -30rem;
-                    margin-left: -7rem;
+                    margin-left: -12rem;
+                }
+            }
+            .f13{
+                grid-area: f13;
+                .imagen13{
+                    width: 44rem;
+                    height: 43rem;
+                    border: 7px outset #9b2226;
+                    margin-left: 2rem;
+                    margin-top: -6rem;
+                }
+            }
+            .f14{
+                grid-area: f14;
+                .imagen14{
+                    width: 44rem;
+                    height: 43rem;
+                    border: 7px outset #9b2226;
+                    margin-left: -6rem;
+                    margin-top: -6rem;
+                }
+            }
+            .f15{
+                grid-area: f15;
+                .imagen15{
+                    width: 44rem;
+                    height: 55rem;
+                    border: 7px outset #9b2226;
+                    margin-left: -12rem;
+                    margin-top: -30rem;
+                }
+            }
+            .f16{
+                grid-area: f16;
+                .imagen16{
+                    width: 44rem;
+                    height: 43rem;
+                    border: 7px outset #9b2226;
+                    margin-left: 2rem;
+                    margin-top: -6rem;
+                }
+            }
+            .f17{
+                grid-area: f17;
+                .imagen17{
+                    width: 83rem;
+                    height: 48rem;
+                    border: 7px outset #9b2226;
+                    margin-left: -6rem;
+                    margin-top: -6rem;
                 }
             }
         }

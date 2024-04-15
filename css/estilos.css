@@ -1118,6 +1118,180 @@ body .footerAmeri {
   background: linear-gradient(0deg, rgb(0, 0, 0) 52%, rgb(155, 34, 38) 100%);
 }
 
+body main .galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  grid-template-areas: "f1 f2 f3" "f4 f5 f5" "f6 f7 f8" "f9 f10 f8" "f11 f11 f12" "f13 f14 f15" "f16 f17 f17";
+  margin-bottom: 2rem;
+  gap: 8rem;
+}
+body main .galeria .f1 {
+  grid-area: f1;
+}
+body main .galeria .f1 .imagen1 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 8rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f2 {
+  grid-area: f2;
+}
+body main .galeria .f2 .imagen2 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: -6rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f3 {
+  grid-area: f3;
+}
+body main .galeria .f3 .imagen3 {
+  width: 37rem;
+  height: 37rem;
+  border: 7px outset #9b2226;
+  margin-left: -12rem;
+}
+body main .galeria .f4 {
+  grid-area: f4;
+}
+body main .galeria .f4 .imagen4 {
+  width: 37rem;
+  height: 39rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f5 {
+  grid-area: f5;
+}
+body main .galeria .f5 .imagen5 {
+  width: 83.7rem;
+  height: 39rem;
+  margin-left: -12.4rem;
+  border: 7px outset #9b2226;
+}
+body main .galeria .f6 {
+  grid-area: f6;
+}
+body main .galeria .f6 .imagen6 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+}
+body main .galeria .f7 {
+  grid-area: f7;
+}
+body main .galeria .f7 .imagen7 {
+  width: 37rem;
+  height: 37rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  margin-left: -12rem;
+}
+body main .galeria .f8 {
+  grid-area: f8;
+}
+body main .galeria .f8 .imagen8 {
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  width: 44rem;
+  height: 52rem;
+  margin-left: -16rem;
+}
+body main .galeria .f9 {
+  grid-area: f9;
+}
+body main .galeria .f9 .imagen9 {
+  width: 37rem;
+  height: 37rem;
+  margin-left: 2rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+}
+body main .galeria .f10 {
+  grid-area: f10;
+}
+body main .galeria .f10 .imagen10 {
+  width: 37rem;
+  height: 37rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  margin-left: -12rem;
+}
+body main .galeria .f11 {
+  grid-area: f11;
+}
+body main .galeria .f11 .imagen11 {
+  width: 83.6rem;
+  height: 50rem;
+  border: 7px outset #9b2226;
+  margin-top: -6rem;
+  margin-left: 2rem;
+}
+body main .galeria .f12 {
+  grid-area: f12;
+}
+body main .galeria .f12 .imagen12 {
+  width: 44rem;
+  height: 50rem;
+  border: 7px outset #9b2226;
+  margin-top: -30rem;
+  margin-left: -12rem;
+}
+body main .galeria .f13 {
+  grid-area: f13;
+}
+body main .galeria .f13 .imagen13 {
+  width: 44rem;
+  height: 43rem;
+  border: 7px outset #9b2226;
+  margin-left: 2rem;
+  margin-top: -6rem;
+}
+body main .galeria .f14 {
+  grid-area: f14;
+}
+body main .galeria .f14 .imagen14 {
+  width: 44rem;
+  height: 43rem;
+  border: 7px outset #9b2226;
+  margin-left: -6rem;
+  margin-top: -6rem;
+}
+body main .galeria .f15 {
+  grid-area: f15;
+}
+body main .galeria .f15 .imagen15 {
+  width: 44rem;
+  height: 55rem;
+  border: 7px outset #9b2226;
+  margin-left: -12rem;
+  margin-top: -30rem;
+}
+body main .galeria .f16 {
+  grid-area: f16;
+}
+body main .galeria .f16 .imagen16 {
+  width: 44rem;
+  height: 43rem;
+  border: 7px outset #9b2226;
+  margin-left: 2rem;
+  margin-top: -6rem;
+}
+body main .galeria .f17 {
+  grid-area: f17;
+}
+body main .galeria .f17 .imagen17 {
+  width: 83rem;
+  height: 48rem;
+  border: 7px outset #9b2226;
+  margin-left: -6rem;
+  margin-top: -6rem;
+}
+
 @media only screen and (max-width: 699px) {
   body header nav div .menu {
     background-color: gray !important;
@@ -1694,6 +1868,196 @@ body .footerAmeri {
     margin: 0px auto;
     margin-top: -10rem;
     font-size: 1.7rem;
+  }
+  body main .galeria {
+    grid-template-columns: 1fr;
+    grid-template-rows: 280px;
+    grid-template-areas: "f1" "f2" "f3" "f4" "f6" "f7" "f16" "f9" "f10" "f14" "f13" "f12" "f15" "f8" "f17" "f5" "f11";
+    gap: 1rem;
+  }
+  body main .galeria .f1 {
+    grid-area: f1;
+    margin: 0px auto;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  body main .galeria .f1 .imagen1 {
+    width: 100%;
+    height: 28rem;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f2 {
+    grid-area: f2;
+    margin: 0px auto;
+  }
+  body main .galeria .f2 .imagen2 {
+    width: 83%;
+    height: 28rem;
+    margin-left: 3rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f3 {
+    grid-area: f3;
+    margin: 0px auto;
+  }
+  body main .galeria .f3 .imagen3 {
+    width: 100%;
+    height: 28rem;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+  }
+  body main .galeria .f4 {
+    grid-area: f4;
+    margin: 0px auto;
+  }
+  body main .galeria .f4 .imagen4 {
+    width: 100%;
+    height: 26rem;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f5 {
+    grid-area: f5;
+    margin: 0px auto;
+  }
+  body main .galeria .f5 .imagen5 {
+    width: 100%;
+    height: 23rem;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f6 {
+    grid-area: f6;
+    margin: 0px auto;
+  }
+  body main .galeria .f6 .imagen6 {
+    width: 100%;
+    height: 25rem;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+  }
+  body main .galeria .f7 {
+    grid-area: f7;
+    margin: 0px auto;
+  }
+  body main .galeria .f7 .imagen7 {
+    width: 100%;
+    height: 28rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f8 {
+    grid-area: f8;
+    margin: 0px auto;
+  }
+  body main .galeria .f8 .imagen8 {
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    width: 100%;
+    height: 36rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f9 {
+    grid-area: f9;
+    margin: 0px auto;
+  }
+  body main .galeria .f9 .imagen9 {
+    width: 100%;
+    height: 28rem;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+  }
+  body main .galeria .f10 {
+    grid-area: f10;
+    margin: 0px auto;
+  }
+  body main .galeria .f10 .imagen10 {
+    width: 100%;
+    height: 28rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f11 {
+    grid-area: f11;
+    margin: 0px auto;
+  }
+  body main .galeria .f11 .imagen11 {
+    width: 100%;
+    height: 22rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f12 {
+    grid-area: f12;
+    margin: 0px auto;
+  }
+  body main .galeria .f12 .imagen12 {
+    width: 100%;
+    height: 35rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f13 {
+    grid-area: f13;
+    margin: 0px auto;
+  }
+  body main .galeria .f13 .imagen13 {
+    width: 100%;
+    height: 28rem;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f14 {
+    grid-area: f14;
+    margin: 0px auto;
+  }
+  body main .galeria .f14 .imagen14 {
+    width: 100%;
+    height: 28rem;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f15 {
+    grid-area: f15;
+    margin: 0px auto;
+  }
+  body main .galeria .f15 .imagen15 {
+    width: 100%;
+    height: 45rem;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f16 {
+    grid-area: f16;
+    margin: 0px auto;
+  }
+  body main .galeria .f16 .imagen16 {
+    width: 100%;
+    height: 28rem;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f17 {
+    grid-area: f17;
+    margin: 0px auto;
+  }
+  body main .galeria .f17 .imagen17 {
+    width: 100%;
+    height: 20rem;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
   }
 }
 @media only screen and (min-width: 501px) and (max-width: 950px) {
@@ -2469,126 +2833,4 @@ body .footerAmeri {
     margin-top: -9rem !important;
     overflow: visible;
   }
-}
-body main .galeria {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px;
-  grid-template-areas: "f1 f2 f3" "f4 f5 f5" "f6 f7 f8" "f9 f10 f8" "f11 f11 f12";
-  margin-bottom: 20rem;
-  gap: 8rem;
-}
-body main .galeria .f1 {
-  grid-area: f1;
-}
-body main .galeria .f1 .imagen1 {
-  width: 37rem;
-  height: 37rem;
-  margin-left: 2rem;
-  border: 7px outset #9b2226;
-}
-body main .galeria .f2 {
-  grid-area: f2;
-}
-body main .galeria .f2 .imagen2 {
-  width: 37rem;
-  height: 37rem;
-  margin-left: 1rem;
-  border: 7px outset #9b2226;
-}
-body main .galeria .f3 {
-  grid-area: f3;
-}
-body main .galeria .f3 .imagen3 {
-  width: 37rem;
-  height: 37rem;
-  border: 7px outset #9b2226;
-}
-body main .galeria .f4 {
-  grid-area: f4;
-}
-body main .galeria .f4 .imagen4 {
-  width: 37rem;
-  height: 39rem;
-  margin-left: 2rem;
-  border: 7px outset #9b2226;
-}
-body main .galeria .f5 {
-  grid-area: f5;
-}
-body main .galeria .f5 .imagen5 {
-  width: 83.7rem;
-  height: 39rem;
-  margin-left: 1rem;
-  border: 7px outset #9b2226;
-}
-body main .galeria .f6 {
-  grid-area: f6;
-}
-body main .galeria .f6 .imagen6 {
-  width: 37rem;
-  height: 37rem;
-  margin-left: 2rem;
-  border: 7px outset #9b2226;
-  margin-top: -6rem;
-}
-body main .galeria .f7 {
-  grid-area: f7;
-}
-body main .galeria .f7 .imagen7 {
-  width: 37rem;
-  height: 37rem;
-  border: 7px outset #9b2226;
-  margin-top: -6rem;
-  margin-left: 1rem;
-}
-body main .galeria .f8 {
-  grid-area: f8;
-}
-body main .galeria .f8 .imagen8 {
-  border: 7px outset #9b2226;
-  margin-top: -6rem;
-  width: 44rem;
-  height: 52rem;
-  margin-left: -7rem;
-}
-body main .galeria .f9 {
-  grid-area: f9;
-}
-body main .galeria .f9 .imagen9 {
-  width: 37rem;
-  height: 37rem;
-  margin-left: 2rem;
-  border: 7px outset #9b2226;
-  margin-top: -6rem;
-}
-body main .galeria .f10 {
-  grid-area: f10;
-}
-body main .galeria .f10 .imagen10 {
-  width: 37rem;
-  height: 37rem;
-  border: 7px outset #9b2226;
-  margin-top: -6rem;
-  margin-left: 1rem;
-}
-body main .galeria .f11 {
-  grid-area: f11;
-}
-body main .galeria .f11 .imagen11 {
-  width: 83.6rem;
-  height: 50rem;
-  border: 7px outset #9b2226;
-  margin-top: -6rem;
-  margin-left: 2rem;
-}
-body main .galeria .f12 {
-  grid-area: f12;
-}
-body main .galeria .f12 .imagen12 {
-  width: 44rem;
-  height: 43rem;
-  border: 7px outset #9b2226;
-  margin-top: -30rem;
-  margin-left: -7rem;
 }/*# sourceMappingURL=estilos.css.map */

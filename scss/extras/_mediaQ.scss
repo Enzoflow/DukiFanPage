@@ -638,6 +638,212 @@
                     font-size: 1.7rem;
                 }
             }
+            .galeria{
+                grid-template-columns: 1fr;
+                grid-template-rows: 280px;
+                grid-template-areas:
+                "f1"
+                "f2"
+                "f3"
+                "f4"
+                "f6"
+                "f7"
+                "f16"
+                "f9"
+                "f10"
+                "f14"
+                "f13"
+                "f12"
+                "f15"
+                "f8"
+                "f17"
+                "f5"
+                "f11";
+                gap: 1rem;
+                .f1{
+                    grid-area: f1;
+                    margin: 0px auto;
+                    height: min-content;
+                    .imagen1{
+                        width: 100%;
+                        height: 28rem;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f2{
+                    grid-area: f2;
+                    margin: 0px auto;
+                    .imagen2{
+                        width: 83%;
+                        height: 28rem;
+                        margin-left: 3rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f3{
+                    grid-area: f3;
+                    margin: 0px auto;
+                    .imagen3{
+                        width: 100%;
+                        height: 28rem;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                    }
+                }
+                .f4{
+                    grid-area: f4;
+                    margin: 0px auto;
+                    .imagen4{
+                        width: 100%;
+                        height: 26rem;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f5{
+                    grid-area: f5;
+                    margin: 0px auto;
+                    .imagen5{
+                        width: 100%;
+                        height: 23rem;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f6{
+                    grid-area: f6;
+                    margin: 0px auto;
+                    .imagen6{
+                        width: 100%;
+                        height: 25rem;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                    }
+                }
+                .f7{
+                    grid-area: f7;
+                    margin: 0px auto;
+                    .imagen7{
+                        width: 100%;
+                        height: 28rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f8{
+                    grid-area: f8;
+                    margin: 0px auto;
+                    .imagen8{
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        width: 100%;
+                        height: 36rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f9{
+                    grid-area: f9;
+                    margin: 0px auto;
+                    .imagen9{
+                        width: 100%;
+                        height: 28rem;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                    }
+                }
+                .f10{
+                    grid-area: f10;
+                    margin: 0px auto;
+                    .imagen10{
+                        width: 100%;
+                        height: 28rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f11{
+                    grid-area: f11;
+                    margin: 0px auto;
+                    .imagen11{
+                        width: 100%;
+                        height: 22rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f12{
+                    grid-area: f12;
+                    margin: 0px auto;
+                    .imagen12{
+                        width: 100%;
+                        height: 35rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f13{
+                    grid-area: f13;
+                    margin: 0px auto;
+                    .imagen13{
+                        width: 100%;
+                        height: 28rem;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f14{
+                    grid-area: f14;
+                    margin: 0px auto;
+                    .imagen14{
+                        width: 100%;
+                        height: 28rem;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f15{
+                    grid-area: f15;
+                    margin: 0px auto;
+                    .imagen15{
+                        width: 100%;
+                        height: 45rem;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f16{
+                    grid-area: f16;
+                    margin: 0px auto;
+                    .imagen16{
+                        width: 100%;
+                        height: 28rem;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f17{
+                    grid-area: f17;
+                    margin: 0px auto;
+                    .imagen17{
+                        width: 100%;
+                        height: 20rem;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+            }
         }
     }
 }
