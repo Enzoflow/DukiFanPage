@@ -865,20 +865,17 @@ body main .bio {
 }
 body main .bio .imagen_bio {
   grid-area: foto;
-  border-right: solid #9d0208;
-  width: 41rem;
-  padding-left: 2rem;
-  border-left: solid #9d0208;
+  width: auto;
   margin-left: 4rem;
 }
 body main .bio .imagen_bio .img_bio {
   width: 38rem;
   height: 38rem;
-  padding: 1rem;
-  margin-left: -1rem;
+  margin-left: 2rem;
   border-radius: 24px 24px 24px 24px;
   -webkit-border-radius: 24px 24px 24px 24px;
   -moz-border-radius: 24px 24px 24px 24px;
+  border: 2px dashed #780000;
 }
 body main .bio .titu_bio {
   grid-area: titulo;
@@ -971,10 +968,7 @@ body main .bio .tex_bio2 .tex_img {
   width: 41rem;
   margin-left: 4rem;
   color: white;
-  border-right: solid #9d0208;
-  border-bottom: solid #9d0208;
   padding-left: 4rem;
-  border-left: solid #9d0208;
 }
 
 body header .navAmeri {
@@ -1062,13 +1056,13 @@ body main .conteinerAmeri .textoA .textomeri {
   width: 39rem;
   margin-top: -15rem;
   color: white;
-  text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
+  text-shadow: 2px -1px 4px rgba(0, 0, 0, 0.6);
 }
 body main .temasA {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 300px;
-  grid-template-areas: "nom nom" "spo duki" "datos duki";
+  grid-template-areas: "nom nom" "spo spo" "datos datos";
   margin-bottom: 1rem;
 }
 body main .temasA .gridNombre {
@@ -1086,32 +1080,18 @@ body main .temasA .gridTema {
 }
 body main .temasA .gridTema .smset {
   padding: 1rem;
-  margin-left: 3rem;
+  margin-left: 36rem;
   margin-top: -19rem;
-}
-body main .temasA .fotoTema {
-  grid-area: duki;
-}
-body main .temasA .fotoTema .eltiempo {
-  width: 35rem;
-  height: 47rem;
-  margin-left: 21rem;
-  border-radius: 18px 18px 18px 18px;
-  -webkit-border-radius: 18px 18px 18px 18px;
-  -moz-border-radius: 18px 18px 18px 18px;
-  margin-top: -20rem;
-  margin-bottom: 1rem;
-  box-shadow: -1px -3px 52px 23px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -1px -3px 52px 23px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -1px -3px 52px 23px rgba(0, 0, 0, 0.75);
 }
 body main .temasA .gridDatos {
   grid-area: datos;
   font-size: 2rem;
-  margin-left: 4rem;
-  margin-top: -15rem;
+  margin-left: 38rem;
+  margin-top: -11rem;
+  margin-bottom: 1rem;
   color: white;
   font-family: "Playfair Display", serif;
+  text-shadow: 2px -1px 4px rgba(0, 0, 0, 0.6);
 }
 body .footerAmeri {
   background: rgb(0, 0, 0);
@@ -1833,7 +1813,7 @@ body main .galeria .f17 .imagen17 {
   }
   body main .temasA {
     grid-template-columns: 1fr;
-    grid-template-areas: "nom" "duki" "spo" "datos";
+    grid-template-areas: "nom" "spo" "datos";
   }
   body main .temasA .gridNombre {
     margin: 0px auto;
@@ -1850,18 +1830,9 @@ body main .galeria .f17 .imagen17 {
     width: 90%;
   }
   body main .temasA .gridTema .smset {
-    margin-top: 1rem;
+    margin-top: -21rem;
     margin-left: 0rem;
     width: 100%;
-    margin-right: 1rem;
-  }
-  body main .temasA .fotoTema {
-    margin: 0px auto;
-  }
-  body main .temasA .fotoTema .eltiempo {
-    width: 27rem;
-    height: 27rem;
-    margin-left: 1rem;
     margin-right: 1rem;
   }
   body main .temasA .gridDatos {
@@ -2457,6 +2428,200 @@ body main .galeria .f17 .imagen17 {
     border-left: none;
     border-right: none;
   }
+  body main .conteinerAmeri {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    grid-template-areas: "ameri" "des" "video";
+  }
+  body main .conteinerAmeri .tituloAmeri {
+    margin: 0px auto;
+  }
+  body main .conteinerAmeri .tituloAmeri .imgAmeri {
+    margin-left: 0rem;
+    width: 31rem;
+    height: 10rem;
+    margin-top: 1rem;
+  }
+  body main .conteinerAmeri .tituloA {
+    margin: 0px auto;
+    margin-left: 0rem;
+    margin-top: -17rem;
+    height: auto;
+    padding: 0rem;
+    background-color: inherit;
+    -webkit-box-shadow: none;
+  }
+  body main .conteinerAmeri .tituloA .desc {
+    width: auto;
+    font-size: 2rem;
+    height: auto;
+    padding: 1rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  body main .conteinerAmeri .tituloA .desc .why {
+    margin-left: 0rem;
+  }
+  body main .conteinerAmeri .tituloA .ti {
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+  body main .conteinerAmeri .video .edit {
+    margin-left: 0rem;
+    width: 100%;
+  }
+  body main .temasA {
+    grid-template-columns: 1fr;
+    grid-template-areas: "nom" "spo" "datos";
+  }
+  body main .temasA .gridNombre {
+    margin: 0px auto;
+    margin-top: 7rem;
+  }
+  body main .temasA .gridNombre .nombreTema {
+    margin-left: 0rem;
+    width: 36rem;
+    height: 9rem;
+    margin-top: -5rem;
+  }
+  body main .temasA .gridTema {
+    margin: 0px auto;
+    width: 90%;
+  }
+  body main .temasA .gridTema .smset {
+    margin-top: -21rem;
+    margin-left: 0rem;
+    width: 100%;
+    margin-right: 1rem;
+  }
+  body main .temasA .gridDatos {
+    margin: 0px auto;
+    margin-top: -10rem;
+    font-size: 1.7rem;
+  }
+  body main .conteiner {
+    grid-template-columns: 1fr;
+    grid-template-areas: "titu" "tex" "spoti";
+  }
+  body main .conteiner .areaT {
+    margin: 0px auto;
+  }
+  body main .conteiner .areaT .titu {
+    margin-left: 0rem;
+    font-size: 3.2rem;
+    color: white;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  }
+  body main .conteiner .areaT .titu24 {
+    font-size: 7rem;
+    margin-left: 1rem;
+    color: black;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  }
+  body main .conteiner .areaT .tituMu {
+    font-size: 3rem;
+    margin-left: 1rem;
+    width: 29rem;
+    color: black;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  }
+  body main .conteiner .areaT .vivoTI {
+    width: 19rem;
+    font-size: 2.8rem;
+    margin-left: 0rem;
+    color: black;
+    text-shadow: -1px 1px 22px rgba(142, 202, 230, 0.6);
+  }
+  body main .conteiner .areaT .tiTR {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    color: black;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+  body main .conteiner .areaT .tiTR2 {
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  body main .conteiner .areaT .tituAda {
+    font-size: 3.2rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    color: white;
+    text-shadow: -1px 5px 8px rgba(120, 0, 0, 0.6);
+  }
+  body main .conteiner .album {
+    margin: 0px auto;
+    width: 95%;
+  }
+  body main .conteiner .album .disco {
+    width: 100%;
+  }
+  body main .conteiner .areatex {
+    margin: 0px auto;
+  }
+  body main .conteiner .areatex .texto {
+    width: auto;
+    margin-left: 0rem;
+    font-size: 1.6rem;
+    padding: 1rem;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    color: white;
+    font-family: "Annapurna SIL", serif;
+  }
+  body main .conteiner .areatex .tex24 {
+    margin-left: 0rem;
+    width: auto;
+    font-size: 1.7rem;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    padding: 1rem;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+  }
+  body main .conteiner .areatex .texMu {
+    margin-left: 0rem;
+    font-size: 1.7rem;
+    width: auto;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    padding: 1.2rem;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+    color: black;
+  }
+  body main .conteiner .areatex .texVivo {
+    font-size: 1.7rem;
+    margin-left: 0rem;
+    width: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-shadow: -1px 1px 22px rgba(142, 202, 230, 0.6);
+  }
+  body main .conteiner .areatex .texTR {
+    font-size: 1.7rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: auto;
+    color: black;
+  }
+  body main .conteiner .areatex .texTR2 {
+    width: auto;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-shadow: 4px 0px 13px rgba(115, 93, 120, 0.6);
+    color: white;
+  }
+  body main .conteiner .areatex .texAda {
+    width: auto;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+  }
 }
 @media only screen and (min-width: 850px) and (max-width: 1100px) {
   body header nav div .menu {
@@ -2832,5 +2997,214 @@ body main .galeria .f17 .imagen17 {
     margin-bottom: -6rem !important;
     margin-top: -9rem !important;
     overflow: visible;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 950px) {
+  body main .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 280px;
+    grid-template-areas: "f1 f2" "f3 f4" "f6 f7" "f16 f9" "f10 f14" "f13 f12" "f15 f8" "f11 f11" "f17 f17" "f5 f5";
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  body main .galeria .f1 {
+    grid-area: f1;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+  }
+  body main .galeria .f1 .imagen1 {
+    width: 100%;
+    height: 99%;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f2 {
+    grid-area: f2;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f2 .imagen2 {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f3 {
+    grid-area: f3;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f3 .imagen3 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+  }
+  body main .galeria .f4 {
+    grid-area: f4;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f4 .imagen4 {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f5 {
+    grid-area: f5;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f5 .imagen5 {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+  }
+  body main .galeria .f6 {
+    grid-area: f6;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f6 .imagen6 {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+  }
+  body main .galeria .f7 {
+    grid-area: f7;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f7 .imagen7 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f8 {
+    grid-area: f8;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f8 .imagen8 {
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+  }
+  body main .galeria .f9 {
+    grid-area: f9;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f9 .imagen9 {
+    width: 100%;
+    height: auto;
+    margin-left: 0rem;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+  }
+  body main .galeria .f10 {
+    grid-area: f10;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f10 .imagen10 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f11 {
+    grid-area: f11;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f11 .imagen11 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f12 {
+    grid-area: f12;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f12 .imagen12 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  body main .galeria .f13 {
+    grid-area: f13;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f13 .imagen13 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f14 {
+    grid-area: f14;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f14 .imagen14 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f15 {
+    grid-area: f15;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f15 .imagen15 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f16 {
+    grid-area: f16;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f16 .imagen16 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  body main .galeria .f17 {
+    grid-area: f17;
+    margin: 0px auto;
+    width: 100%;
+  }
+  body main .galeria .f17 .imagen17 {
+    width: 100%;
+    height: auto;
+    border: 7px outset #9b2226;
+    margin-left: 0rem;
+    margin-top: 1rem;
   }
 }/*# sourceMappingURL=estilos.css.map */

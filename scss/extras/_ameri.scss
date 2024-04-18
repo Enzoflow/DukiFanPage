@@ -91,7 +91,7 @@ body{
                     width: 39rem;
                     margin-top: -15rem;
                     color: white;
-                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
+                    text-shadow: 2px -1px 4px rgba(0,0,0,0.6);
                 }
             }
         }
@@ -101,8 +101,8 @@ body{
             grid-template-rows: 300px;
             grid-template-areas: 
             "nom nom"
-            "spo duki"
-            "datos duki";
+            "spo spo"
+            "datos datos";
             margin-bottom: 1rem;
             .gridNombre{
                 grid-area: nom;
@@ -118,33 +118,19 @@ body{
                 grid-area: spo;
                 .smset{
                     padding: 1rem;
-                    margin-left: 3rem;
+                    margin-left: 36rem;
                     margin-top: -19rem;
-                }
-            }
-            .fotoTema{
-                grid-area: duki;
-                .eltiempo{
-                    width: 35rem;
-                    height: 47rem;
-                    margin-left: 21rem;
-                    border-radius: 18px 18px 18px 18px;
-                    -webkit-border-radius: 18px 18px 18px 18px;
-                    -moz-border-radius: 18px 18px 18px 18px;
-                    margin-top: -20rem;
-                    margin-bottom: 1rem;
-                    box-shadow: -1px -3px 52px 23px rgba(0,0,0,0.75);
-                    -webkit-box-shadow: -1px -3px 52px 23px rgba(0,0,0,0.75);
-                    -moz-box-shadow: -1px -3px 52px 23px rgba(0,0,0,0.75);
                 }
             }
             .gridDatos{
                 grid-area: datos;
                 font-size: 2rem;
-                margin-left: 4rem;
-                margin-top: -15rem;
+                margin-left: 38rem;
+                margin-top: -11rem;
+                margin-bottom: 1rem;
                 color: white;
                 font-family: "Playfair Display", serif;
+                text-shadow: 2px -1px 4px rgba(0,0,0,0.6);
             }
         }
    }

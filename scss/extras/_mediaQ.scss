@@ -600,7 +600,6 @@
                 grid-template-columns: 1fr;
                 grid-template-areas: 
                 "nom"
-                "duki"
                 "spo"
                 "datos";
                 .gridNombre{
@@ -617,18 +616,9 @@
                     margin: 0px auto;
                     width: 90%;
                     .smset{
-                        margin-top: 1rem;
+                        margin-top: -21rem;
                         margin-left: 0rem;
                         width: 100%;
-                        margin-right: 1rem;
-                    }
-                }
-                .fotoTema{
-                    margin: 0px auto;
-                    .eltiempo{
-                        width: 27rem;
-                        height: 27rem;
-                        margin-left: 1rem;
                         margin-right: 1rem;
                     }
                 }
@@ -1300,6 +1290,219 @@
                     }
                 }
             }
+            .conteinerAmeri{
+                grid-template-columns: 1fr;
+                grid-template-rows: 300px;
+                grid-template-areas: 
+                "ameri"
+                "des"
+                "video";
+                .tituloAmeri{
+                    margin: 0px auto;
+                    
+                    .imgAmeri{
+                        margin-left: 0rem;
+                        width: 31rem;
+                        height: 10rem;
+                        margin-top: 1rem;
+
+                    }
+                }
+                .tituloA{
+                    margin: 0px auto;
+                    margin-left: 0rem;
+                    margin-top: -17rem;
+                    height: auto;
+                    padding: 0rem;
+                    background-color: inherit;
+                    -webkit-box-shadow: none;
+                    .desc{
+                        width: auto;
+                        font-size: 2rem;
+                        height: auto;
+                        padding: 1rem;
+                       
+                        margin-top: 0rem;
+                        margin-left: 0rem;
+                        .why{
+                            margin-left: 0rem;
+                        }
+                    }
+                    .ti{
+                        font-size: 2rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .video{
+                    .edit{
+                        margin-left: 0rem;
+                        width: 100%;
+                    }
+                }
+            }
+            .temasA{
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                "nom"
+                "spo"
+                "datos";
+                .gridNombre{
+                    margin: 0px auto;
+                    margin-top: 7rem;
+                    .nombreTema{
+                        margin-left: 0rem;
+                        width: 36rem;
+                        height: 9rem;
+                        margin-top: -5rem;
+                    }
+                }
+                .gridTema{
+                    margin: 0px auto;
+                    width: 90%;
+                    .smset{
+                        margin-top: -21rem;
+                        margin-left: 0rem;
+                        width: 100%;
+                        margin-right: 1rem;
+                    }
+                }
+                .gridDatos{
+                    margin: 0px auto;
+                    margin-top: -10rem;
+                    font-size: 1.7rem;
+                }
+            }
+            .conteiner{
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                "titu"
+                "tex"
+                "spoti";
+                .areaT{
+                    margin: 0px auto;
+                    
+                    .titu{
+                        margin-left: 0rem;
+                        font-size: 3.2rem;
+                        color: white;
+                        text-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+                    }
+                    .titu24{
+                        font-size: 7rem;
+                        margin-left: 1rem;
+                        color: black;
+                        text-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+                    }
+                    .tituMu{
+                        font-size: 3rem;
+                        margin-left: 1rem;
+                        width: 29rem;
+                        color: black;
+                        text-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+                    }
+                    .vivoTI{
+                        width: 19rem;
+                        font-size: 2.8rem;
+                        margin-left: 0rem;
+                        color: black;
+                        text-shadow: -1px 1px 22px rgba(142,202,230,0.6);
+                    }
+                    .tiTR{
+                        font-size: 2.5rem;
+                        margin-left: 1rem;
+                        color: black;
+                        width: auto;
+                        margin-bottom: 1rem;
+                    }
+                    .tiTR2{
+                        margin-left: 0rem;
+                        margin-bottom: 1rem;
+                        font-size: 2.5rem;
+                    }
+                    .tituAda{
+                        font-size: 3.2rem;
+                        margin-left: 0rem;
+                        margin-bottom: 0rem;
+                        color: white;
+                        text-shadow: -1px 5px 8px rgba(120,0,0,0.6);
+                    }
+                }
+                .album{
+                    margin: 0px auto;
+                    width: 95%;
+                    .disco{
+                        width: 100%;
+                    }
+                }
+                .areatex{
+                    margin: 0px auto;
+                    .texto{
+                        width: auto;
+                        margin-left: 0rem;
+                        font-size: 1.6rem;
+                        padding: 1rem;
+                        background-color: transparent;
+                        -webkit-box-shadow: none;
+                        color: white;
+                        font-family: "Annapurna SIL", serif;
+                        
+                    }
+                    .tex24{
+                        margin-left: 0rem;
+                        width: auto;
+                        font-size: 1.7rem;
+                        background-color: transparent;
+                        -webkit-box-shadow: none;
+                        padding: 1rem;
+                        text-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+                    }
+                    .texMu{
+                        margin-left: 0rem;
+                        font-size: 1.7rem;
+                        width: auto;
+                        background-color: transparent;
+                        -webkit-box-shadow: none;
+                        padding: 1.2rem;
+                        text-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+                        color: black;
+                        
+                    }
+                    .texVivo{
+                        font-size: 1.7rem;
+                        margin-left: 0rem;
+                        width: auto;
+                        margin-top: 1rem;
+                        padding: 1rem;
+                        text-shadow: -1px 1px 22px rgba(142,202,230,0.6);
+                    }
+                    .texTR{
+                        font-size: 1.7rem;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        padding: 1rem;
+                        width: auto;
+                        color: black;
+                    }
+                    .texTR2{
+                        width: auto;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        font-size: 1.8rem;
+                        padding: 1rem;
+                        text-shadow: 4px 0px 13px rgba(115,93,120,0.6);
+                        color: white;
+
+                    }
+                    .texAda{
+                        width: auto;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                        font-size: 1.7rem;
+                        padding: 1rem;
+
+                    }
+                }
+            }
         }
     }
 }
@@ -1716,6 +1919,229 @@
             }
         }    
 
+    }
+}
+@media only screen and (min-width:560px) and (max-width:950px){
+    body{
+        main{
+            .galeria{
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 280px;
+                grid-template-areas:
+                "f1 f2"
+                "f3 f4"
+                "f6 f7"
+                "f16 f9"
+                "f10 f14"
+                "f13 f12"
+                "f15 f8"
+                "f11 f11"
+                "f17 f17"
+                "f5 f5";
+                gap: 1rem;
+                margin-bottom: 1rem;
+                .f1{
+                    grid-area: f1;
+                    margin: 0px auto;
+                    width: 100%;
+                    height: auto;
+                    .imagen1{
+                        width: 100%;
+                        height: 99%;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f2{
+                    grid-area: f2;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen2{
+                        width: 100%;
+                        height: auto;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f3{
+                    grid-area: f3;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen3{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                    }
+                }
+                .f4{
+                    grid-area: f4;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen4{
+                        width: 100%;
+                        height: auto;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f5{
+                    grid-area: f5;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen5{
+                        width: 100%;
+                        height: auto;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                    }
+                }
+                .f6{
+                    grid-area: f6;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen6{
+                        width: 100%;
+                        height: auto;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                    }
+                }
+                .f7{
+                    grid-area: f7;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen7{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f8{
+                    grid-area: f8;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen8{
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        width: 100%;
+                        height: auto;
+                        margin-left: 0rem;
+                    }
+                }
+                .f9{
+                    grid-area: f9;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen9{
+                        width: 100%;
+                        height: auto;
+                        margin-left: 0rem;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                    }
+                }
+                .f10{
+                    grid-area: f10;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen10{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f11{
+                    grid-area: f11;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen11{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f12{
+                    grid-area: f12;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen12{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-top: 1rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .f13{
+                    grid-area: f13;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen13{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f14{
+                    grid-area: f14;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen14{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f15{
+                    grid-area: f15;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen15{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f16{
+                    grid-area: f16;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen16{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+                .f17{
+                    grid-area: f17;
+                    margin: 0px auto;
+                    width: 100%;
+                    .imagen17{
+                        width: 100%;
+                        height: auto;
+                        border: 7px outset #9b2226;
+                        margin-left: 0rem;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
     }
 }
                 
