@@ -658,7 +658,7 @@ body header .nav24 ul {
 body main .conteiner .areaT .titu24 {
   font-size: 9rem;
   margin-left: 65rem;
-  color: #ff928b;
+  color: black;
   text-shadow: 6px 2px 18px rgba(224, 170, 255, 0.6);
   font-family: "Annapurna SIL", serif;
 }
@@ -698,11 +698,11 @@ body header .navMu ul {
   font-family: "Annapurna SIL", serif;
 }
 body main .conteiner .areaT .tituMu {
-  font-size: 9rem;
-  margin-left: 29rem;
+  font-size: 5rem;
+  margin-left: 45rem;
   font-family: "Annapurna SIL", serif;
-  color: rgb(156, 102, 68);
-  width: 91rem;
+  color: white;
+  width: 48rem;
   text-shadow: 5px -1px 16px rgba(127, 85, 57, 0.6);
 }
 body main .conteiner .areatex .texMu {
@@ -714,6 +714,7 @@ body main .conteiner .areatex .texMu {
   border-radius: 14px 14px 14px 14px;
   -webkit-border-radius: 14px 14px 14px 14px;
   -moz-border-radius: 14px 14px 14px 14px;
+  color: white;
   font-family: "Annapurna SIL", serif;
 }
 body .footerMu {
@@ -734,10 +735,10 @@ body header .navvivo ul {
   font-family: "Annapurna SIL", serif;
 }
 body main .conteiner .areaT .vivoTI {
-  font-size: 9rem;
-  margin-left: 10rem;
-  width: 124rem;
-  color: rgb(202, 240, 248);
+  font-size: 4rem;
+  margin-left: 42rem;
+  width: 53rem;
+  color: black;
   text-shadow: 1px -2px 10px rgba(202, 240, 248, 0.6);
 }
 body main .conteiner .areatex .texVivo {
@@ -777,8 +778,9 @@ body main .conteiner .areaT .tiTR {
   font-size: 5rem;
   margin-left: 40rem;
   margin-bottom: 2.5rem;
-  color: #606c38;
+  color: white;
   text-shadow: 2px 2px 13px rgba(153, 217, 140, 0.6);
+  font-family: "Playfair Display", serif;
 }
 body main .conteiner .album {
   margin: 1rem;
@@ -818,10 +820,11 @@ body header .navtr2 ul li a:hover {
 }
 body main .areaT .tiTR2 {
   font-size: 5rem;
-  margin-left: 40rem;
+  margin-left: 36rem;
   margin-bottom: 2.5rem;
   text-shadow: 4px 0px 13px rgba(115, 93, 120, 0.6);
-  color: #e8c2ca;
+  color: white;
+  font-family: "Playfair Display", serif;
 }
 body main .areatex .texTR2 {
   font-size: 2rem;
@@ -842,8 +845,9 @@ body main .conteiner .areaT .tituAda {
   font-size: 5rem;
   margin-left: 50rem;
   margin-bottom: 2.5rem;
-  color: rgb(120, 0, 0);
+  color: white;
   text-shadow: 4px 0px 6px rgba(155, 34, 38, 0.6);
+  font-family: "Playfair Display", serif;
 }
 body main .conteiner .areatex .texAda {
   font-size: 2rem;
@@ -3002,7 +3006,7 @@ body main .galeria .f17 .imagen17 {
 @media only screen and (min-width: 560px) and (max-width: 950px) {
   body main .galeria {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 280px;
+    grid-template-rows: min-content;
     grid-template-areas: "f1 f2" "f3 f4" "f6 f7" "f16 f9" "f10 f14" "f13 f12" "f15 f8" "f11 f11" "f17 f17" "f5 f5";
     gap: 1rem;
     margin-bottom: 1rem;
