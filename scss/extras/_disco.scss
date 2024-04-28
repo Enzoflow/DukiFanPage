@@ -34,7 +34,7 @@ main{
             background: rgb(2,62,138);
             background: radial-gradient(circle, rgba(2,62,138,1) 73%, rgba(0,119,182,1) 90%);   
             width: 33rem;
-            height: 40rem;
+            height: 36rem;
             margin-left: 4rem;
             margin-top: -20rem;
             box-shadow: 10px 10px 144px 79px rgba(2,62,138,0.53);
@@ -50,6 +50,7 @@ main{
                 margin-left: 1rem;
                 color: white;
                 text-decoration: none;
+                font-family: "Annapurna SIL", serif;
             }
             .ssjTEX{
                 font-size: 2rem;
@@ -78,9 +79,9 @@ main{
             background: rgb(255,173,173);
             background: radial-gradient(circle, rgba(255,173,173,1) 26%, rgba(224,170,255,1) 100%);
             width: 33rem;
-            height: 40rem;
+            height: 36rem;
             margin-left: 51rem;
-            margin-top: -127rem;
+            margin-top: -112rem;
             box-shadow: 10px 10px 144px 79px rgba(255,173,173,0.53);
             -webkit-box-shadow: 10px 10px 144px 79px rgba(255,173,173,0.53);
             -moz-box-shadow: 10px 10px 144px 79px rgba(255,173,173,0.53);
@@ -102,6 +103,7 @@ main{
                 margin-left: 14rem;
                 text-decoration: none;
                 color: white;
+                font-family: "Annapurna SIL", serif;
             }
             .epTEX{
                 font-size: 2rem;
@@ -120,7 +122,7 @@ main{
             background: rgb(156,102,68);
             background: radial-gradient(circle, rgba(156,102,68,1) 76%, rgba(119,73,54,1) 100%);
             width: 33rem;
-            height: 40rem;
+            height: 36rem;
             margin-left: -15rem;
             margin-top: -20rem;
             box-shadow: 10px 10px 144px 79px rgba(227,100,20,0.53);
@@ -146,6 +148,7 @@ main{
                 text-align: center;
                 color: white;
                 text-decoration: none;
+                font-family: "Annapurna SIL", serif;
             }
             .mundoTEX{
                 font-size: 1.6rem;
@@ -158,7 +161,7 @@ main{
             background: rgb(153,217,140);
             background: radial-gradient(circle, rgba(153,217,140,1) 48%, rgba(181,228,140,1) 100%);
             width: 33rem;
-            height: 43rem;
+            height: 36rem;
             margin-left: -33rem;
             margin-top: 2rem;
             box-shadow: 10px 10px 144px 79px rgba(181,228,140,0.53);
@@ -177,13 +180,14 @@ main{
                 -moz-border-radius: 15px 15px 15px 15px;
             }
             .regg{
-                font-size: 3.5rem;
+                font-size: 2.9rem;
                 height: 5rem;
                 margin-bottom: 5.5rem;
                 text-align: center;
                 text-decoration: none;
                 margin-left: 1rem;
                 color:black;
+                font-family: "Annapurna SIL", serif;
             }
             .texREGG{
                 font-size: 1.7rem;
@@ -196,7 +200,7 @@ main{
             background: rgb(64,61,57);
             background: radial-gradient(circle, rgba(64,61,57,1) 85%, rgba(37,36,34,1) 100%);
             width: 33rem;
-            height: 43rem;
+            height: 36rem;
             margin-left: -15rem;
             margin-top: 2rem;
             box-shadow: 10px 10px 144px 79px rgba(37,36,34,0.53);
@@ -215,11 +219,12 @@ main{
                 -moz-border-radius: 15px 15px 15px 15px;
             }
             .regg2{
-                font-size: 3.5rem;
+                font-size: 2.8rem;
                 height: 5rem;
                 margin-bottom: 5.5rem;
                 text-align: center;
                 color: white;
+                font-family: "Annapurna SIL", serif;
             }
             .texREGG2{
                 font-size: 1.7rem;
@@ -234,7 +239,7 @@ main{
             background: rgb(202,240,248);
             background: radial-gradient(circle, rgba(202,240,248,1) 85%, rgba(255,232,214,1) 100%);
             width: 33rem;
-            height: 43rem;
+            height: 36rem;
             margin-left: 4rem;
             margin-top: 2rem;
             box-shadow: 10px 10px 144px 79px rgba(202,240,248,0.53);
@@ -253,13 +258,14 @@ main{
                 -moz-border-radius: 15px 15px 15px 15px;
             }
             .vivoTI{
-                font-size: 3.5rem;
+                font-size: 2.5rem;
                 height: 5rem;
                 text-align: center;
                 margin-bottom: 5.5rem;
                 color: black;
                 padding: 1rem;
                 margin-left: 1rem;
+                font-family: "Annapurna SIL", serif;
             }
             .vivoTE{
                 font-size: 2rem;
@@ -272,7 +278,7 @@ main{
             background: rgb(155,34,38);
             background: radial-gradient(circle, rgba(155,34,38,1) 26%, rgba(120,0,0,1) 96%);
             width: 33rem;
-            height: 40rem;
+            height: 36rem;
             margin-left: 22rem;
             margin-top: 2rem;
             box-shadow: 10px 10px 144px 79px rgba(155,34,38,0.75);
@@ -296,6 +302,7 @@ main{
                 text-align: center;
                 margin-bottom: 1rem;
                 color: white;
+                font-family: "Annapurna SIL", serif;
             }
             .adaTE{
                 font-size: 2rem;
@@ -307,7 +314,7 @@ main{
         .gridAmeri{
             grid-area: ameri;
             width: 33rem;
-            height: 40rem;
+            height: 36rem;
             margin-left: -31rem;
             margin-top: 2rem;
             background: rgb(0,180,216);
@@ -333,6 +340,7 @@ main{
                 text-align: center;
                 margin-bottom: 1rem;
                 color: white;
+                font-family: "Annapurna SIL", serif;
             }
             .ameriTE{
                 font-size: 2rem;

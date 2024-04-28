@@ -26,10 +26,11 @@ body{
             .tituloAmeri{
                 grid-area: ameri;
                 .imgAmeri{
-                    width: 49rem;
-                    height: 16rem;
-                    margin-left: 15rem;
-                    margin-top: 5rem;
+                    font-size: 8rem;
+                    margin-left: 23rem;
+                    margin-top: 10rem;
+                    font-family: "Annapurna SIL", serif;
+                    text-shadow: -1px 1px 2px rgba(72,202,228,0.6);
                 }
             }
             .tituloA{
@@ -42,11 +43,11 @@ body{
                     font-size: 2rem;
                     text-align: justify;
                     width: 54rem;
-                    color: white;
-                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
+                    color: black;
                     margin-left: 2rem;
                     margin-top: 2rem;
                     font-family: "Playfair Display", serif;
+                    text-shadow: -1px 1px 7px rgba(0,0,0,0.6);
                     .why{
                         margin-left: 19rem;
                         margin-top: -2rem;
@@ -56,7 +57,7 @@ body{
                 .ti{
                     font-size: 3.5rem;
                     margin-left: 22rem;
-                    color: white;
+                    color: black;
                     text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
                 }
             }
@@ -90,8 +91,8 @@ body{
                     margin-left: 20rem;
                     width: 39rem;
                     margin-top: -15rem;
-                    color: white;
-                    text-shadow: 2px -1px 4px rgba(0,0,0,0.6);
+                    color: black;
+                    text-shadow: -1px -1px 24px rgba(0,0,0,0.57);
                 }
             }
         }
@@ -107,11 +108,14 @@ body{
             .gridNombre{
                 grid-area: nom;
                 .nombreTema{
-                    margin-left: 30rem;
+                    margin-left: 39rem;
                     width: 77rem;
-                    height: 15rem;
+                    height: 1rem;
                     margin-bottom: 1rem;
-                    margin-top: -3rem;
+                    margin-top: 3rem;
+                    font-size: 5rem;
+                    font-family: "Annapurna SIL", serif;
+                    text-shadow: -1px 1px 2px rgba(157,2,8,0.6);
                 }
             }
             .gridTema{
@@ -128,14 +132,14 @@ body{
                 margin-left: 38rem;
                 margin-top: -11rem;
                 margin-bottom: 1rem;
-                color: white;
+                color: black;
                 font-family: "Playfair Display", serif;
                 text-shadow: 2px -1px 4px rgba(0,0,0,0.6);
             }
         }
    }
    .footerAmeri{
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 52%, rgba(155,34,38,1) 100%);
+    background: rgb(0,180,216);
+        background: linear-gradient(180deg, rgba(0,180,216,1) 0%, rgba(6,105,121,1) 62%);
    }
 }

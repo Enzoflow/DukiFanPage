@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Bungee+Hairline&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 @import 'animate.css';
 * {
   margin: 0;
@@ -105,6 +106,7 @@ body main .section2 .info .texBio {
   color: white;
 }
 body footer {
+  display: flex;
   background-color: #9d0208;
   width: 100%;
   height: 81px;
@@ -112,6 +114,22 @@ body footer {
   top: 0px;
   width: 100%;
   block-size: 50px;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+body footer .textoF {
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Inconsolata", monospace;
+  margin-left: 34rem;
+}
+body footer .textoF2 {
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Inconsolata", monospace;
+  margin-right: -33rem;
+  padding-left: 1rem;
 }
 
 main .albums {
@@ -145,7 +163,7 @@ main .albums .gridSSJ {
   background: rgb(2, 62, 138);
   background: radial-gradient(circle, rgb(2, 62, 138) 73%, rgb(0, 119, 182) 90%);
   width: 33rem;
-  height: 40rem;
+  height: 36rem;
   margin-left: 4rem;
   margin-top: -20rem;
   box-shadow: 10px 10px 144px 79px rgba(2, 62, 138, 0.53);
@@ -161,6 +179,7 @@ main .albums .gridSSJ .ssjTITU {
   margin-left: 1rem;
   color: white;
   text-decoration: none;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridSSJ .ssjTEX {
   font-size: 2rem;
@@ -188,9 +207,9 @@ main .albums .grid24 {
   background: rgb(255, 173, 173);
   background: radial-gradient(circle, rgb(255, 173, 173) 26%, rgb(224, 170, 255) 100%);
   width: 33rem;
-  height: 40rem;
+  height: 36rem;
   margin-left: 51rem;
-  margin-top: -127rem;
+  margin-top: -112rem;
   box-shadow: 10px 10px 144px 79px rgba(255, 173, 173, 0.53);
   -webkit-box-shadow: 10px 10px 144px 79px rgba(255, 173, 173, 0.53);
   -moz-box-shadow: 10px 10px 144px 79px rgba(255, 173, 173, 0.53);
@@ -213,6 +232,7 @@ main .albums .grid24 .epTITU {
   margin-left: 14rem;
   text-decoration: none;
   color: white;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .grid24 .epTEX {
   font-size: 2rem;
@@ -230,7 +250,7 @@ main .albums .gridMundo {
   background: rgb(156, 102, 68);
   background: radial-gradient(circle, rgb(156, 102, 68) 76%, rgb(119, 73, 54) 100%);
   width: 33rem;
-  height: 40rem;
+  height: 36rem;
   margin-left: -15rem;
   margin-top: -20rem;
   box-shadow: 10px 10px 144px 79px rgba(227, 100, 20, 0.53);
@@ -257,6 +277,7 @@ main .albums .gridMundo .mundoTITU {
   text-align: center;
   color: white;
   text-decoration: none;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridMundo .mundoTEX {
   font-size: 1.6rem;
@@ -268,7 +289,7 @@ main .albums .gridRE {
   background: rgb(153, 217, 140);
   background: radial-gradient(circle, rgb(153, 217, 140) 48%, rgb(181, 228, 140) 100%);
   width: 33rem;
-  height: 43rem;
+  height: 36rem;
   margin-left: -33rem;
   margin-top: 2rem;
   box-shadow: 10px 10px 144px 79px rgba(181, 228, 140, 0.53);
@@ -288,13 +309,14 @@ main .albums .gridRE .tem1 {
   -moz-border-radius: 15px 15px 15px 15px;
 }
 main .albums .gridRE .regg {
-  font-size: 3.5rem;
+  font-size: 2.9rem;
   height: 5rem;
   margin-bottom: 5.5rem;
   text-align: center;
   text-decoration: none;
   margin-left: 1rem;
   color: black;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridRE .texREGG {
   font-size: 1.7rem;
@@ -306,7 +328,7 @@ main .albums .gridRE2 {
   background: rgb(64, 61, 57);
   background: radial-gradient(circle, rgb(64, 61, 57) 85%, rgb(37, 36, 34) 100%);
   width: 33rem;
-  height: 43rem;
+  height: 36rem;
   margin-left: -15rem;
   margin-top: 2rem;
   box-shadow: 10px 10px 144px 79px rgba(37, 36, 34, 0.53);
@@ -326,11 +348,12 @@ main .albums .gridRE2 .tem2 {
   -moz-border-radius: 15px 15px 15px 15px;
 }
 main .albums .gridRE2 .regg2 {
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   height: 5rem;
   margin-bottom: 5.5rem;
   text-align: center;
   color: white;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridRE2 .texREGG2 {
   font-size: 1.7rem;
@@ -343,7 +366,7 @@ main .albums .gridVIVO {
   background: rgb(202, 240, 248);
   background: radial-gradient(circle, rgb(202, 240, 248) 85%, rgb(255, 232, 214) 100%);
   width: 33rem;
-  height: 43rem;
+  height: 36rem;
   margin-left: 4rem;
   margin-top: 2rem;
   box-shadow: 10px 10px 144px 79px rgba(202, 240, 248, 0.53);
@@ -363,13 +386,14 @@ main .albums .gridVIVO .vivo {
   -moz-border-radius: 15px 15px 15px 15px;
 }
 main .albums .gridVIVO .vivoTI {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   height: 5rem;
   text-align: center;
   margin-bottom: 5.5rem;
   color: black;
   padding: 1rem;
   margin-left: 1rem;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridVIVO .vivoTE {
   font-size: 2rem;
@@ -381,7 +405,7 @@ main .albums .gridada {
   background: rgb(155, 34, 38);
   background: radial-gradient(circle, rgb(155, 34, 38) 26%, rgb(120, 0, 0) 96%);
   width: 33rem;
-  height: 40rem;
+  height: 36rem;
   margin-left: 22rem;
   margin-top: 2rem;
   box-shadow: 10px 10px 144px 79px rgba(155, 34, 38, 0.75);
@@ -406,6 +430,7 @@ main .albums .gridada .adaTI {
   text-align: center;
   margin-bottom: 1rem;
   color: white;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridada .adaTE {
   font-size: 2rem;
@@ -416,7 +441,7 @@ main .albums .gridada .adaTE {
 main .albums .gridAmeri {
   grid-area: ameri;
   width: 33rem;
-  height: 40rem;
+  height: 36rem;
   margin-left: -31rem;
   margin-top: 2rem;
   background: rgb(0, 180, 216);
@@ -443,6 +468,7 @@ main .albums .gridAmeri .ameriTI {
   text-align: center;
   margin-bottom: 1rem;
   color: white;
+  font-family: "Annapurna SIL", serif;
 }
 main .albums .gridAmeri .ameriTE {
   font-size: 2rem;
@@ -996,10 +1022,11 @@ body main .conteinerAmeri .tituloAmeri {
   grid-area: ameri;
 }
 body main .conteinerAmeri .tituloAmeri .imgAmeri {
-  width: 49rem;
-  height: 16rem;
-  margin-left: 15rem;
-  margin-top: 5rem;
+  font-size: 8rem;
+  margin-left: 23rem;
+  margin-top: 10rem;
+  font-family: "Annapurna SIL", serif;
+  text-shadow: -1px 1px 2px rgba(72, 202, 228, 0.6);
 }
 body main .conteinerAmeri .tituloA {
   grid-area: des;
@@ -1012,11 +1039,11 @@ body main .conteinerAmeri .tituloA .desc {
   font-size: 2rem;
   text-align: justify;
   width: 54rem;
-  color: white;
-  text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
+  color: black;
   margin-left: 2rem;
   margin-top: 2rem;
   font-family: "Playfair Display", serif;
+  text-shadow: -1px 1px 7px rgba(0, 0, 0, 0.6);
 }
 body main .conteinerAmeri .tituloA .desc .why {
   margin-left: 19rem;
@@ -1025,7 +1052,7 @@ body main .conteinerAmeri .tituloA .desc .why {
 body main .conteinerAmeri .tituloA .ti {
   font-size: 3.5rem;
   margin-left: 22rem;
-  color: white;
+  color: black;
   text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
 }
 body main .conteinerAmeri .video {
@@ -1059,8 +1086,8 @@ body main .conteinerAmeri .textoA .textomeri {
   margin-left: 20rem;
   width: 39rem;
   margin-top: -15rem;
-  color: white;
-  text-shadow: 2px -1px 4px rgba(0, 0, 0, 0.6);
+  color: black;
+  text-shadow: -1px -1px 24px rgba(0, 0, 0, 0.57);
 }
 body main .temasA {
   display: grid;
@@ -1073,11 +1100,14 @@ body main .temasA .gridNombre {
   grid-area: nom;
 }
 body main .temasA .gridNombre .nombreTema {
-  margin-left: 30rem;
+  margin-left: 39rem;
   width: 77rem;
-  height: 15rem;
+  height: 1rem;
   margin-bottom: 1rem;
-  margin-top: -3rem;
+  margin-top: 3rem;
+  font-size: 5rem;
+  font-family: "Annapurna SIL", serif;
+  text-shadow: -1px 1px 2px rgba(157, 2, 8, 0.6);
 }
 body main .temasA .gridTema {
   grid-area: spo;
@@ -1093,13 +1123,13 @@ body main .temasA .gridDatos {
   margin-left: 38rem;
   margin-top: -11rem;
   margin-bottom: 1rem;
-  color: white;
+  color: black;
   font-family: "Playfair Display", serif;
   text-shadow: 2px -1px 4px rgba(0, 0, 0, 0.6);
 }
 body .footerAmeri {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgb(0, 0, 0) 52%, rgb(155, 34, 38) 100%);
+  background: rgb(0, 180, 216);
+  background: linear-gradient(180deg, rgb(0, 180, 216) 0%, rgb(6, 105, 121) 62%);
 }
 
 body main .galeria {
