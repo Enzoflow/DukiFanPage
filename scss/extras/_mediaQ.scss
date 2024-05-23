@@ -558,7 +558,7 @@
                     
                     .imgAmeri{
                         margin-left: 0rem;
-                        width: 31rem;
+                        width: 32rem;
                         height: 10rem;
                         margin-top: 1rem;
 
@@ -610,13 +610,14 @@
                         width: 36rem;
                         height: 9rem;
                         margin-top: -5rem;
+                        margin-bottom: 1rem;
                     }
                 }
                 .gridTema{
                     margin: 0px auto;
                     width: 90%;
                     .smset{
-                        margin-top: -21rem;
+                        margin-top: -18rem;
                         margin-left: 0rem;
                         width: 100%;
                         margin-right: 1rem;
@@ -1302,7 +1303,7 @@
                     
                     .imgAmeri{
                         margin-left: 0rem;
-                        width: 31rem;
+                        width: 32rem;
                         height: 10rem;
                         margin-top: 1rem;
 
@@ -1360,7 +1361,7 @@
                     margin: 0px auto;
                     width: 90%;
                     .smset{
-                        margin-top: -21rem;
+                        margin-top: -18rem;
                         margin-left: 0rem;
                         width: 100%;
                         margin-right: 1rem;
@@ -1506,7 +1507,7 @@
         }
     }
 }
-@media only screen and (min-width:850px) and (max-width:1100px){
+@media only screen and (min-width:850px) and (max-width:1200px){
     body{
         header{
             nav{
@@ -1916,6 +1917,88 @@
                 margin-bottom: -6rem !important;
                 margin-top: -9rem !important;
                 overflow: visible
+            }
+            .conteinerAmeri{
+                grid-template-columns: 1fr;
+                grid-template-rows: 300px;
+                grid-template-areas: 
+                "ameri"
+                "des"
+                "video";
+                .tituloAmeri{
+                    margin: 0px auto;
+                    
+                    .imgAmeri{
+                        margin-left: 0rem;
+                        width: 32rem;
+                        height: 10rem;
+                        margin-top: 1rem;
+
+                    }
+                }
+                .tituloA{
+                    margin: 0px auto;
+                    margin-left: 0rem;
+                    margin-top: -17rem;
+                    height: auto;
+                    padding: 0rem;
+                    background-color: inherit;
+                    -webkit-box-shadow: none;
+                    .desc{
+                        width: auto;
+                        font-size: 2rem;
+                        height: auto;
+                        padding: 1rem;
+                       
+                        margin-top: 0rem;
+                        margin-left: 0rem;
+                        .why{
+                            margin-left: 0rem;
+                        }
+                    }
+                    .ti{
+                        font-size: 2rem;
+                        margin-left: 0rem;
+                    }
+                }
+                .video{
+                    .edit{
+                        margin-left: 0rem;
+                        width: 100%;
+                    }
+                }
+            }
+            .temasA{
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                "nom"
+                "spo"
+                "datos";
+                .gridNombre{
+                    margin: 0px auto;
+                    margin-top: 7rem;
+                    .nombreTema{
+                        margin-left: 0rem;
+                        width: 36rem;
+                        height: 9rem;
+                        margin-top: -5rem;
+                    }
+                }
+                .gridTema{
+                    margin: 0px auto;
+                    width: 90%;
+                    .smset{
+                        margin-top: -18rem;
+                        margin-left: 0rem;
+                        width: 100%;
+                        margin-right: 1rem;
+                    }
+                }
+                .gridDatos{
+                    margin: 0px auto;
+                    margin-top: -10rem;
+                    font-size: 1.7rem;
+                }
             }
         }    
 
